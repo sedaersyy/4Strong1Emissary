@@ -1,5 +1,5 @@
 # Takım İsmi
-##### 4Strong1Emissary
+#### 4Strong1Emissary
 ## Takım Elemanları
 - Sanem Taş: Product Owner
 - Seda Ersoy: Scrum Master
