@@ -1,4 +1,5 @@
 # Takım İsmi
+# Ürün ile İlgili Bilgiler
 #### 4Strong1Emissary
 ## Takım Elemanları
 - Sanem Taş: Product Owner
