@@ -24,3 +24,4 @@
 # Sprint 1
 #### Sprint Notları:
 #### Daily Scrum:
+#### Sprint board screenshotları: 
