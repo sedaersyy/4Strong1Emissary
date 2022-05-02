@@ -25,3 +25,4 @@
 #### Sprint Notları:
 #### Daily Scrum:
 #### Sprint board screenshotları: 
+#### Sprint Review:
