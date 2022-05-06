@@ -11,8 +11,6 @@
 -
 ## Ürün açıklaması
 -
-## Ürün İsmi
--
 ## Ürün Açıklaması 
 -
 ## Ürün Özellikleri 
