@@ -31,4 +31,4 @@
 #### Sprint Review: 
 -Eski yerleşim yeri altında kanalizasyon, maden, yeraltı zehirli gazların denk geldiği atmosferde oldukça heyecan içeren bir tünel oyununu içermektedir. 
 #### Sprint Retrospective: 
--Sprint2 için ekip tekrar biraraya gelerek, mekanizmaların tasarımı ve kodları üzerine konuşacak. Ses efektleri belirlenecek. 
+-Sprint2 için ekip tekrar biraraya gelerek, teknik kısım, mekanizmaların tasarımı, kodları üzerine konuşacak. Ses efektleri belirlenecek. 
