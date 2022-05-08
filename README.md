@@ -28,5 +28,7 @@
 -![1](https://user-images.githubusercontent.com/104379234/167314999-616b5706-9a79-4db3-841a-0e4ebcdc381f.png)
 ![2](https://user-images.githubusercontent.com/104379234/167315006-7ac0f4c2-952c-4628-9de1-1744ae54f041.png)
 ![3](https://user-images.githubusercontent.com/104379234/167315010-3ea788ae-6ce1-4d90-af0e-5c9970083915.png)
-#### Sprint Review: Eski yerleşim yeri altında kanalizasyon, maden, yeraltı zehirli gazların denk geldiği atmosferde bir tünel oyununu içermektedir. 
-#### Sprint Retrospective: Sprint2 için ekip tekrar biraraya gelerek, mekanizmaların tasarımı ve kodları üzerine konuşacak. Ses efektleri belirlenecek. 
+#### Sprint Review: 
+-Eski yerleşim yeri altında kanalizasyon, maden, yeraltı zehirli gazların denk geldiği atmosferde oldukça heyecan içeren bir tünel oyununu içermektedir. 
+#### Sprint Retrospective: 
+-Sprint2 için ekip tekrar biraraya gelerek, mekanizmaların tasarımı ve kodları üzerine konuşacak. Ses efektleri belirlenecek. 
