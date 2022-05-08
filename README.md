@@ -21,8 +21,9 @@
 -Netflix Game kullanıcıları 
 -15 - 65 yaş arası kullanıcılar
 ## Product Backlog URL
+https://miro.com/app/board/uXjVO41czFc=/?share_link_id=729058218749 
 # Sprint 1
-#### Sprint Notları: https://miro.com/app/board/uXjVO41czFc=/?share_link_id=729058218749 Link içinde Sprint Notları bulunmaktadır.
+#### Sprint Notları: 
 #### Daily Scrum: https://docs.google.com/document/d/1rh2gWjPrQSCbM92gxgOMOUfzuzJ0UWkdOFi27bmAAYI/edit Link içinde günlük konuşma notlarımız bulunmaktadır. 
 #### Sprint board screenshotları: 
 -![1](https://user-images.githubusercontent.com/104379234/167314999-616b5706-9a79-4db3-841a-0e4ebcdc381f.png)
