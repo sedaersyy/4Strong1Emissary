@@ -10,7 +10,7 @@
 ## Ürün İsmi
 Pipe Struggle
 ## Ürün açıklaması
-Pipe Struggle oyunu ile macera ve korku dolu bir yolculuğa çıkacaksınız. Pipe Struggle oyunumuz ile macera duygusunu artırmak ve bu oyunu oynarken yön kullanma becerileri ile oyunun sürecini devam ettirebileceği bir fırsat sunmaktadır. Oyunu oynarken amaç; takip ettiği ipuçları ile düşmüş olduğu lağım çukurundan çıkış yolunu aramak olacaktır. Çıkış yolunu ararken hayatta kalması için materyalleri topluyor. Topladığı materyallerden ise belli puanlar alacaktır. Hedeflenen puana göre bonus ürünler verilecek. Ürünleri topladıktan sonra çıkış kapısına ulaşmaya çalışacak. 
+Pipe Struggle oyunu ile macera ve korku dolu bir yolculuğa çıkacaksınız. Pipe Struggle oyunumuz ile macera duygusunu artırmak ve bu oyunu oynarken yön kullanma becerileri ile oyunun sürecini devam ettirebileceği bir fırsat sunmaktadır. Oyunu oynarken amaç; takip ettiği ipuçları ile düşmüş olduğu kanalizasyon çukurundan çıkış yolunu aramak olacaktır. Çıkış yolunu ararken hayatta kalması için materyalleri topluyor. Topladığı materyallerden ise belli puanlar alacaktır. Hedeflenen puana göre bonus ürünler verilecek. Ürünleri topladıktan sonra çıkış kapısına ulaşmaya çalışacak. 
 ## Ürün Özellikleri 
 - Oyun içinde süreç planlaması yapılması 
 - Verilen materyalleri uygun alanlarda kullanma 
