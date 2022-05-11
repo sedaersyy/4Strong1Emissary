@@ -36,7 +36,8 @@ https://docs.google.com/document/d/1rh2gWjPrQSCbM92gxgOMOUfzuzJ0UWkdOFi27bmAAYI/
 ![2](https://user-images.githubusercontent.com/104379234/167492868-4467c6fc-53af-4bc2-a9a7-121b1b2a5c68.png)
 ![3](https://user-images.githubusercontent.com/104379234/167491807-3fd93eb3-907d-4fa8-9218-bb5d1de26d7c.png)
 #### Ürün Durumu: Ekran Görüntüleri: 
-- Oyunumuzun teknik kısmına Sprint2' de geçeceğiz. O yüzden oyumuza yönelik ekran görüntüleri bulunmamaktadır.
+- Oyunumuzun teknik kısmına Sprint2' de geçeceğiz. 
+- ![IMG-20220511-WA0000](https://user-images.githubusercontent.com/104379234/167829287-adad76d2-4bba-43b8-826a-4e973affc154.jpg)
 #### Sprint Review: 
 - Eski yerleşim yeri altında kanalizasyon, maden, yeraltı zehirli gazların denk geldiği atmosferde oldukça heyecan içeren bir tünel oyununu içermektedir. 
 #### Sprint Retrospective: 
