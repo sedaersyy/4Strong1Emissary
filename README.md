@@ -60,5 +60,14 @@ https://docs.google.com/document/d/13bKs41R_03goa7U4D0H3ZDP_R7ntDLSfROzjnHRLLIU/
 #### Sprint Review: 
 - Birlikte çalışma konusunda tüm ekip üyleri görevini gerektiği şekilde tamamladı.  
 - Her gün proje hakkında konuşarak süreç değerlendirmesi yapıldı. 
-- Oyun planlama formu kullanmak süreci daha iyi yönetme konusunda kolaylaştırıcı oldu.  
+- Oyun planlama formu kullanmak süreci daha iyi yönetme konusunda kolaylaştırıcı oldu. 
+- Oyunda kullanılacak olan mekaniklerden yürüme mekaniği, taş atma mekaniği, koşma mekaniği, dönme mekaniği, zıplama mekaniği,  karakterin kendi etrafında dönme mekaniği yapıldı. 
+- Kamera mekaniği yapıldı. 
+- Taşı attıktan sonra taş 10 saniye sonra siliniyor ve kayboluyor, mekaniği tamamlandı. 
+- Taşı elimize aldığımızda kamera yakınlaşıyor, mekaniği tamamlandı. 
+- Oyun tasarım kısmı oluşuruldu. 
+- Oyun tasarımı için hazırlanan plan formunda "Konsept, oyun mekanikleri, hedef-kitle, hedef-platform-oyun analizi" başlıkları oluşturularak açıklamaları yapıldı.  
+- Oyunun ana karakteri Adobe Fuse tamamlandı. 
+- GitHub kullanımı konusunda zaman zaman zorluk yaşandı.   
 #### Sprint Retrospective: 
+- 
