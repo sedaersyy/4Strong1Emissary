@@ -55,3 +55,7 @@ https://miro.com/app/board/uXjVO0wqVPQ=/?share_link_id=708101841087
 #### Daily Scrum: 
 https://docs.google.com/document/d/13bKs41R_03goa7U4D0H3ZDP_R7ntDLSfROzjnHRLLIU/edit
 - Link içinde günlük konuşma notlarımız bulunmaktadır. 
+#### Sprint board screenshotları: 
+#### Ürün Durumu: Ekran Görüntüleri:
+#### Sprint Review: 
+#### Sprint Retrospective: 
