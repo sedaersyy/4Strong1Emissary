@@ -90,14 +90,16 @@ namespace StarterAssets
 		private const float _threshold = 0.01f;
 
 		private bool _hasAnimator;
-		public GameObject rockObject;
-		public Transform rockPoint;
-		public GameObject playerFollowCamera;
-		public GameObject playerAimCamera;
+		public GameObject rockObject; 
+		public Transform rockPoint; 
+		public GameObject playerFollowCamera; 
+		public GameObject playerAimCamera; 
+		public Transform hiza; 
+		public GameObject crosshair;
 
 		private void Awake()
 		{
-			// get a reference to our main camera
+			
 			if (_mainCamera == null)
 			{
 				_mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
@@ -112,7 +114,7 @@ namespace StarterAssets
 
 			AssignAnimationIDs();
 
-			// reset our timeouts on start
+			
 			_jumpTimeoutDelta = JumpTimeout;
 			_fallTimeoutDelta = FallTimeout;
 		}
@@ -124,31 +126,34 @@ namespace StarterAssets
 			JumpAndGravity();
 			GroundedCheck();
 			Move();
-			AimShoot();
+			AimShoot(); 
 		}
 
 		private void AimShoot()
 		{
-			if(_input.isAiming && Grounded && !_input.sprint)
+			if(_input.isAiming && Grounded && !_input.sprint) 
 			{
-				_animator.SetBool("Aiming", _input.isAiming);
-				_animator.SetBool("Shooting", _input.isShooting);
-				playerFollowCamera.SetActive(false);
+				_animator.SetBool("Aiming", _input.isAiming); 
+				_animator.SetBool("Shooting", _input.isShooting); 
+				playerFollowCamera.SetActive(false); 
 				playerAimCamera.SetActive(true);
+				crosshair.SetActive(true);
 			}
 			else
 			{
 				_animator.SetBool("Aiming", false);
 				_animator.SetBool("Shooting", false);
 				playerFollowCamera.SetActive(true);
-				playerAimCamera.SetActive(false);
+				playerAimCamera.SetActive(false); 
+				crosshair.SetActive(false);
 			}
 		}
 
 		public void Shoot()
 		{
-			GameObject rock = Instantiate(rockObject, rockPoint.position, transform.rotation);
-			rock.GetComponent<Rigidbody>().AddForce(transform.forward *25, ForceMode.Impulse);
+			GameObject rock = Instantiate(rockObject, rockPoint.position, transform.rotation); 
+			rock.GetComponent<Rigidbody>().AddForceAtPosition(hiza.forward*30, transform.position, ForceMode.Impulse); 
+			
 		}
 
 		private void LateUpdate()
