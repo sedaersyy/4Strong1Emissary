@@ -36,14 +36,14 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Library\PackageCache\com.unity.profiling.core@1.0.2\Runtime\ProfilerMarker3Params.cs" />
-     <Compile Include="Library\PackageCache\com.unity.profiling.core@1.0.2\Runtime\ProfilerCounter.cs" />
      <Compile Include="Library\PackageCache\com.unity.profiling.core@1.0.2\Runtime\ProfilerCounterValue.cs" />
-     <Compile Include="Library\PackageCache\com.unity.profiling.core@1.0.2\Runtime\ProfilerMarker1Param.cs" />
-     <Compile Include="Library\PackageCache\com.unity.profiling.core@1.0.2\Runtime\ProfilerUtility.cs" />
      <Compile Include="Library\PackageCache\com.unity.profiling.core@1.0.2\Runtime\ProfilerMarkerExtensions.cs" />
      <Compile Include="Library\PackageCache\com.unity.profiling.core@1.0.2\Runtime\ProfilerCategory.cs" />
      <Compile Include="Library\PackageCache\com.unity.profiling.core@1.0.2\Runtime\ProfilerMarker2Params.cs" />
+     <Compile Include="Library\PackageCache\com.unity.profiling.core@1.0.2\Runtime\ProfilerMarker3Params.cs" />
+     <Compile Include="Library\PackageCache\com.unity.profiling.core@1.0.2\Runtime\ProfilerCounter.cs" />
+     <Compile Include="Library\PackageCache\com.unity.profiling.core@1.0.2\Runtime\ProfilerMarker1Param.cs" />
+     <Compile Include="Library\PackageCache\com.unity.profiling.core@1.0.2\Runtime\ProfilerUtility.cs" />
      <None Include="Library\PackageCache\com.unity.profiling.core@1.0.2\Runtime\Unity.Profiling.Core.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

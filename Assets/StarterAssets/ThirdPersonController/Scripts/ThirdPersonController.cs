@@ -96,6 +96,9 @@ namespace StarterAssets
 		public GameObject playerAimCamera; 
 		public Transform hiza; 
 		public GameObject crosshair;
+		public float can;
+		public GameObject water;
+		private bool death;
 
 		private void Awake()
 		{
@@ -127,6 +130,19 @@ namespace StarterAssets
 			GroundedCheck();
 			Move();
 			AimShoot(); 
+
+
+		if (can<=0)
+        {
+            death= true;
+        }    
+        
+        if(death==true)
+        {
+            _animator.SetBool("Death", true);
+           
+        }
+        
 		}
 
 		private void AimShoot()
@@ -154,6 +170,14 @@ namespace StarterAssets
 			GameObject rock = Instantiate(rockObject, rockPoint.position, transform.rotation); 
 			rock.GetComponent<Rigidbody>().AddForceAtPosition(hiza.forward*30, transform.position, ForceMode.Impulse); 
 			
+		}
+
+		void OnTriggerEnter(Collider other) 
+		{
+			if (water.gameObject)
+			{
+				can=-100;
+			}
 		}
 
 		private void LateUpdate()

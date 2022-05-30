@@ -36,11 +36,11 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\StarterAssets\Editor\ScriptingDefineUtils.cs" />
-     <Compile Include="Assets\StarterAssets\Editor\ThirdPersonStarterAssetsDeployMenu.cs" />
      <Compile Include="Assets\StarterAssets\Editor\StarterAssetsDeployMenu.cs" />
      <Compile Include="Assets\StarterAssets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
      <Compile Include="Assets\StarterAssets\Editor\PackageChecker\PackageChecker.cs" />
+     <Compile Include="Assets\StarterAssets\Editor\ScriptingDefineUtils.cs" />
+     <Compile Include="Assets\StarterAssets\Editor\ThirdPersonStarterAssetsDeployMenu.cs" />
      <None Include="Assets\StarterAssets\Editor\PackageChecker\PackageImportList.txt" />
      <None Include="Assets\EffectExamples\Editor\PackageManagerAssembly\PackageImportList.txt" />
     <Reference Include="UnityEngine">
@@ -726,6 +726,10 @@
       <Project>{76680542-c7d0-c341-cb8a-54fe278952a9}</Project>
       <Name>Unity.VisualStudio.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.ProBuilder.AddOns.Editor.csproj">
+      <Project>{bd1a1041-fa1d-a542-cb66-75785b6eee9e}</Project>
+      <Name>Unity.ProBuilder.AddOns.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Profiling.Core.csproj">
       <Project>{74a71f82-7405-0d57-9f1e-32d48865b44d}</Project>
       <Name>Unity.Profiling.Core</Name>
@@ -742,9 +746,17 @@
       <Project>{44552b0a-80f4-231f-2427-70c22061295e}</Project>
       <Name>Unity.AdaptivePerformance.Simulator.Extension</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.ProBuilder.csproj">
+      <Project>{276721e6-963d-a8f8-01b4-73b00da32dd7}</Project>
+      <Name>Unity.ProBuilder</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Subsystem.Registration.csproj">
       <Project>{85779f08-d7af-49a2-4afb-a7948ff47140}</Project>
       <Name>Unity.Subsystem.Registration</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ProBuilder.Editor.csproj">
+      <Project>{669eea63-15f8-cdcb-9a3b-62240dff6da4}</Project>
+      <Name>Unity.ProBuilder.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Postprocessing.Editor.csproj">
       <Project>{f72bfd91-e086-82f0-d238-2d89446734d4}</Project>
@@ -758,13 +770,21 @@
       <Project>{8a926f7a-2385-a4ee-209b-5abe09e6ede0}</Project>
       <Name>Unity.Rider.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.AdaptivePerformance.UI.Editor.csproj">
+      <Project>{b7c0cadd-b39e-6643-d8bb-5c3ec01c0e13}</Project>
+      <Name>Unity.AdaptivePerformance.UI.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Polybrush.Editor.csproj">
+      <Project>{effb5ffc-1dc3-b1e5-19c5-b3962c2606a9}</Project>
+      <Name>Unity.Polybrush.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
       <Project>{081d87d9-c16e-d4c2-98e5-2aca8c728493}</Project>
       <Name>Unity.PlasticSCM.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.AdaptivePerformance.UI.Editor.csproj">
-      <Project>{b7c0cadd-b39e-6643-d8bb-5c3ec01c0e13}</Project>
-      <Name>Unity.AdaptivePerformance.UI.Editor</Name>
+    <ProjectReference Include="Unity.Polybrush.csproj">
+      <Project>{cf06e54a-5a5e-ee27-003f-ee45f4294eaa}</Project>
+      <Name>Unity.Polybrush</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.csproj">
       <Project>{3987936a-b323-9694-bcc3-3cc942a6ac38}</Project>
@@ -797,6 +817,10 @@
     <ProjectReference Include="Unity.Services.Core.Environments.csproj">
       <Project>{945cc5eb-b032-4bdd-fd0b-4884e5545b0e}</Project>
       <Name>Unity.Services.Core.Environments</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ProBuilder.AssetIdRemapUtility.csproj">
+      <Project>{3136df83-4fc5-479e-5303-169212ae4549}</Project>
+      <Name>Unity.ProBuilder.AssetIdRemapUtility</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Editor.csproj">
       <Project>{b45abd86-2673-13bd-33e8-e059ec1d3457}</Project>
