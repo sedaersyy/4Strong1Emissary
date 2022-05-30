@@ -36,27 +36,27 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.0\Editor\Management\AdaptivePerformanceGeneralBuildProcessor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.0\Editor\Management\Metadata\AdaptivePerformanceKnownPackages.cs" />
-     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.0\Editor\Management\Metadata\AdaptivePerformancePackage.cs" />
-     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.0\Editor\Management\ProviderSettingsEditor.cs" />
      <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.0\Editor\Management\EnterNamePopup.cs" />
      <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.0\Editor\Management\TypeLoaderExtensions.cs" />
      <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.0\Editor\Management\Metadata\AdaptivePerformancePackageMetadata.cs" />
      <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.0\Editor\Management\AdaptivePerformanceGeneralSettingsPerBuildTarget.cs" />
-     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.0\Editor\Management\BuildHelpers.cs" />
-     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.0\Editor\Management\AdaptivePerformanceSettingsManager.cs" />
      <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.0\Editor\Management\AdaptivePerformanceLoaderOrderUI.cs" />
-     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.0\Editor\Management\AdaptivePerformanceSupportedBuildTargetAttribute.cs" />
-     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.0\Editor\Management\AdaptivePerformanceLoaderInfoManager.cs" />
      <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.0\Editor\Management\AdaptivePerformanceBuildProcessorHelper.cs" />
      <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.0\Editor\Management\AdaptivePerformanceConstants.cs" />
      <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.0\Editor\Management\AdaptivePerformanceLoaderInfo.cs" />
      <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.0\Editor\Management\AdaptivePerformanceManagerEditor.cs" />
      <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.0\Editor\Management\EditorUtilities.cs" />
+     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.0\Editor\Management\AdaptivePerformancePackageInitialization.cs" />
+     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.0\Editor\Management\AdaptivePerformanceGeneralBuildProcessor.cs" />
+     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.0\Editor\Management\Metadata\AdaptivePerformanceKnownPackages.cs" />
+     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.0\Editor\Management\Metadata\AdaptivePerformancePackage.cs" />
+     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.0\Editor\Management\ProviderSettingsEditor.cs" />
+     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.0\Editor\Management\BuildHelpers.cs" />
+     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.0\Editor\Management\AdaptivePerformanceSettingsManager.cs" />
+     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.0\Editor\Management\AdaptivePerformanceSupportedBuildTargetAttribute.cs" />
+     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.0\Editor\Management\AdaptivePerformanceLoaderInfoManager.cs" />
      <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.0\Editor\Management\AdaptivePerformanceConfigurationProvider.cs" />
      <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.0\Editor\Management\EditorWorkQueue.cs" />
-     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.0\Editor\Management\AdaptivePerformancePackageInitialization.cs" />
      <None Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.0\Editor\Unity.AdaptivePerformance.Editor.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

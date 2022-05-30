@@ -36,11 +36,11 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Library\PackageCache\com.unity.services.core@1.3.1\Editor\Core\Configuration\Utils\IoUtils.cs" />
      <Compile Include="Library\PackageCache\com.unity.services.core@1.3.1\Editor\Core\Configuration\AssemblyInfo.cs" />
      <Compile Include="Library\PackageCache\com.unity.services.core@1.3.1\Editor\Core\Configuration\ConfigurationBuilder.cs" />
      <Compile Include="Library\PackageCache\com.unity.services.core@1.3.1\Editor\Core\Configuration\IConfigurationProvider.cs" />
      <Compile Include="Library\PackageCache\com.unity.services.core@1.3.1\Editor\Core\Configuration\ProjectConfigurationBuilder.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.3.1\Editor\Core\Configuration\Utils\IoUtils.cs" />
      <None Include="Library\PackageCache\com.unity.services.core@1.3.1\Editor\Core\Configuration\Unity.Services.Core.Configuration.Editor.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

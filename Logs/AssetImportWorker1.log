@@ -15,7 +15,7 @@ C:/Users/serdar/Documents/GitHub/4Strong1Emissary
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-54103
+51235
 Successfully changed project path to: C:/Users/serdar/Documents/GitHub/4Strong1Emissary
 C:/Users/serdar/Documents/GitHub/4Strong1Emissary
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/serdar/Documents/GitHub/4Strong1Emissary
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 81.80 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 518.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.3f1 (af2e63e8f9bd)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/Resources/UnitySubsystems
@@ -63,88 +63,198 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56604
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.015438 seconds.
+Registered in 0.045713 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 72.72 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 176.25 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.945 seconds
+- Completed reload, in  4.116 seconds
 Domain Reload Profiling:
-	ReloadAssembly (946ms)
-		BeginReloadAssembly (153ms)
+	ReloadAssembly (4117ms)
+		BeginReloadAssembly (1079ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (585ms)
-			LoadAssemblies (145ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (2569ms)
+			LoadAssemblies (1071ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (145ms)
+			SetupTypeCache (349ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (318ms)
+			RebuildScriptCaches (214ms)
+			SetupLoadedEditorAssemblies (1693ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (73ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (167ms)
-				ProcessInitializeOnLoadMethodAttributes (65ms)
+				InitializePlatformSupportModulesInManaged (67ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (177ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (1121ms)
+				ProcessInitializeOnLoadMethodAttributes (322ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008248 seconds.
+Registered in 0.041647 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 76.37 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 139.15 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 Package Manager log level set to [2]
-- Completed reload, in  1.792 seconds
+- Completed reload, in  3.851 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1794ms)
-		BeginReloadAssembly (172ms)
+	ReloadAssembly (3852ms)
+		BeginReloadAssembly (419ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (21ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (1387ms)
-			LoadAssemblies (131ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (3084ms)
+			LoadAssemblies (848ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (334ms)
+			SetupTypeCache (684ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (83ms)
-			SetupLoadedEditorAssemblies (777ms)
+			RebuildScriptCaches (175ms)
+			SetupLoadedEditorAssemblies (1251ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (76ms)
-				BeforeProcessingInitializeOnLoad (138ms)
-				ProcessInitializeOnLoadAttributes (476ms)
-				ProcessInitializeOnLoadMethodAttributes (67ms)
+				RefreshPlugins (141ms)
+				BeforeProcessingInitializeOnLoad (187ms)
+				ProcessInitializeOnLoadAttributes (806ms)
+				ProcessInitializeOnLoadMethodAttributes (81ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.32 seconds
+Refreshing native plugins compatible for Editor in 1.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2937 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (1.4 MB). Loaded Objects now: 3420.
+Memory consumption went from 222.9 MB to 221.5 MB.
+Total: 16.266500 ms (FindLiveObjects: 0.686600 ms CreateObjectMapping: 9.335900 ms MarkObjects: 5.324100 ms  DeleteObjects: 0.918300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017043 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.791 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1792ms)
+		BeginReloadAssembly (237ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (1377ms)
+			LoadAssemblies (152ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (391ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (119ms)
+			SetupLoadedEditorAssemblies (637ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (107ms)
+				ProcessInitializeOnLoadAttributes (445ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2879 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (1.4 MB). Loaded Objects now: 3436.
+Memory consumption went from 217.4 MB to 215.9 MB.
+Total: 7.513400 ms (FindLiveObjects: 0.354600 ms CreateObjectMapping: 0.311000 ms MarkObjects: 6.416800 ms  DeleteObjects: 0.429200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012815 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.778 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1778ms)
+		BeginReloadAssembly (256ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (1295ms)
+			LoadAssemblies (182ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (404ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (90ms)
+			SetupLoadedEditorAssemblies (584ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (413ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
 				AfterProcessingInitializeOnLoad (13ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 1.24 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 4.19 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2452 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 51 unused Assets / (1.3 MB). Loaded Objects now: 2937.
-Memory consumption went from 204.5 MB to 203.2 MB.
-Total: 6.196800 ms (FindLiveObjects: 0.354000 ms CreateObjectMapping: 0.274400 ms MarkObjects: 5.223700 ms  DeleteObjects: 0.343400 ms)
+Unloading 2878 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.4 MB). Loaded Objects now: 3450.
+Memory consumption went from 217.3 MB to 215.9 MB.
+Total: 6.035600 ms (FindLiveObjects: 0.368900 ms CreateObjectMapping: 0.321900 ms MarkObjects: 4.772000 ms  DeleteObjects: 0.571300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,7 +269,1703 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1286472.940267 seconds.
-  path: Assets/Scenes/AcılısSahnesi.unity
-  artifactKey: Guid(5c6f3cd13de9a4e4495bd0e9f3241480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/AcılısSahnesi.unity using Guid(5c6f3cd13de9a4e4495bd0e9f3241480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57fe80861c42d68b97d80237d250a2ba') in 0.013841 seconds 
+  Time since last request: 1472165.258033 seconds.
+  path: Assets/Obje-Texture/Fare1/Rat-AO.png
+  artifactKey: Guid(577469c26f6c1134194047201be3f6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obje-Texture/Fare1/Rat-AO.png using Guid(577469c26f6c1134194047201be3f6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ccc65bf62710e9b00457dacd97532b') in 0.155272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Obje-Texture/Fare1/RatNormalMap.png
+  artifactKey: Guid(33db47c3eb367b246bc220f52b1efe88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obje-Texture/Fare1/RatNormalMap.png using Guid(33db47c3eb367b246bc220f52b1efe88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63cc0d9b38596fbe69383cdc893e8649') in 0.049680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 508.744236 seconds.
+  path: Assets/Prefab/Sewer (4).prefab
+  artifactKey: Guid(d2ceb3c5bee9fe1448c0b7daea82a970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Sewer (4).prefab using Guid(d2ceb3c5bee9fe1448c0b7daea82a970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc42b32b385ef01fa518415153aed27e') in 0.269382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Prefab/Sewer.prefab
+  artifactKey: Guid(b826e61a534d75946838504e130c9947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Sewer.prefab using Guid(b826e61a534d75946838504e130c9947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d6f28e74708cadffbcb81d8e224c8cd') in 0.096938 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007989 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.870 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1871ms)
+		BeginReloadAssembly (234ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (1439ms)
+			LoadAssemblies (170ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (319ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (810ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (140ms)
+				ProcessInitializeOnLoadAttributes (567ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2878 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (1.4 MB). Loaded Objects now: 3472.
+Memory consumption went from 221.8 MB to 220.3 MB.
+Total: 6.006900 ms (FindLiveObjects: 0.493600 ms CreateObjectMapping: 0.279800 ms MarkObjects: 4.753600 ms  DeleteObjects: 0.478500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 31.428484 seconds.
+  path: Assets/Animasyonlar/Fare Animasyonları/fare.controller
+  artifactKey: Guid(3e1380ae42da5a6468266084acdb8077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animasyonlar/Fare Animasyonları/fare.controller using Guid(3e1380ae42da5a6468266084acdb8077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '572a3492d905549282883181a73fed90') in 0.025838 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005836 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.053 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2054ms)
+		BeginReloadAssembly (258ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1480ms)
+			LoadAssemblies (193ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (362ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (704ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (491ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2878 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (1.4 MB). Loaded Objects now: 3487.
+Memory consumption went from 221.8 MB to 220.4 MB.
+Total: 7.196500 ms (FindLiveObjects: 0.380900 ms CreateObjectMapping: 0.241800 ms MarkObjects: 5.996600 ms  DeleteObjects: 0.575300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.398420 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.146 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3147ms)
+		BeginReloadAssembly (379ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (125ms)
+		EndReloadAssembly (2514ms)
+			LoadAssemblies (302ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (600ms)
+			ReleaseScriptCaches (6ms)
+			RebuildScriptCaches (148ms)
+			SetupLoadedEditorAssemblies (1381ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (148ms)
+				ProcessInitializeOnLoadAttributes (1106ms)
+				ProcessInitializeOnLoadMethodAttributes (77ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2879 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (1.4 MB). Loaded Objects now: 3503.
+Memory consumption went from 221.8 MB to 220.4 MB.
+Total: 7.780100 ms (FindLiveObjects: 0.307400 ms CreateObjectMapping: 0.184100 ms MarkObjects: 6.683500 ms  DeleteObjects: 0.602700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017095 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.730 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1731ms)
+		BeginReloadAssembly (248ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (1313ms)
+			LoadAssemblies (170ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (431ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (598ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (422ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2878 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.4 MB). Loaded Objects now: 3517.
+Memory consumption went from 221.9 MB to 220.4 MB.
+Total: 5.332900 ms (FindLiveObjects: 0.572600 ms CreateObjectMapping: 0.289900 ms MarkObjects: 4.036800 ms  DeleteObjects: 0.431900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2483.427669 seconds.
+  path: Assets/EffectExamples/Shared/Sprites/UnityLogoSprite.tif
+  artifactKey: Guid(cafbb0229cd09a44a929ded63df426cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Shared/Sprites/UnityLogoSprite.tif using Guid(cafbb0229cd09a44a929ded63df426cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ba2b3d3e0cd00ece360163d884958a') in 0.335220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.580827 seconds.
+  path: Assets/StarterAssets/Mobile/UI/UI_Icon_Move.png
+  artifactKey: Guid(ff7bfa7addf40784d86f62b8e4a034a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/UI/UI_Icon_Move.png using Guid(ff7bfa7addf40784d86f62b8e4a034a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fcf88e8191872e00715d500667eb149') in 0.143914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/StarterAssets/Mobile/UI/UI_Icon_Jump.png
+  artifactKey: Guid(751aa1b6637101946b2fdbb7aa27d6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/UI/UI_Icon_Jump.png using Guid(751aa1b6637101946b2fdbb7aa27d6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50fc4a25c9dd48454ef94a2d6771e518') in 0.169626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/StarterAssets/Mobile/UI/UI_Circle_Bevel_Base.png
+  artifactKey: Guid(b74c31d447d2f5d41a61081bdf5e7126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/UI/UI_Circle_Bevel_Base.png using Guid(b74c31d447d2f5d41a61081bdf5e7126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f9ba05390e64a4ce9000e054de63141') in 0.157969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/EffectExamples/WeaponEffects/Textures/TinyStonesParticleSheet.png
+  artifactKey: Guid(ce97ed62c0a56e84ab25e22c8dfd5bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/WeaponEffects/Textures/TinyStonesParticleSheet.png using Guid(ce97ed62c0a56e84ab25e22c8dfd5bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65807b20badb6e21251464a35e651d7f') in 0.070871 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017400 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.112 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2113ms)
+		BeginReloadAssembly (436ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1255ms)
+			LoadAssemblies (345ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (344ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (638ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (461ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2879 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (1.4 MB). Loaded Objects now: 3539.
+Memory consumption went from 221.9 MB to 220.5 MB.
+Total: 5.058900 ms (FindLiveObjects: 0.349400 ms CreateObjectMapping: 0.244700 ms MarkObjects: 3.835900 ms  DeleteObjects: 0.627600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.021817 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.481 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2483ms)
+		BeginReloadAssembly (355ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (88ms)
+		EndReloadAssembly (1803ms)
+			LoadAssemblies (243ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (498ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (102ms)
+			SetupLoadedEditorAssemblies (879ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (153ms)
+				ProcessInitializeOnLoadAttributes (587ms)
+				ProcessInitializeOnLoadMethodAttributes (79ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2879 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (1.4 MB). Loaded Objects now: 3554.
+Memory consumption went from 221.9 MB to 220.5 MB.
+Total: 4.035300 ms (FindLiveObjects: 0.396500 ms CreateObjectMapping: 0.269400 ms MarkObjects: 3.014500 ms  DeleteObjects: 0.353200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 372.132772 seconds.
+  path: Assets/Obje-Texture/Kanalizasyon1/01_Sewer1-Diffuse.jpg
+  artifactKey: Guid(41bc8d661c39b7541b9e7f7d8b803ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obje-Texture/Kanalizasyon1/01_Sewer1-Diffuse.jpg using Guid(41bc8d661c39b7541b9e7f7d8b803ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28be8b151f634b5487be12a822efcdd4') in 0.170380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Obje-Texture/Kanalizasyon1/01_Sewer2-AO.jpg
+  artifactKey: Guid(59ec7a829da9c4e4cbc4b89ef1fb9575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obje-Texture/Kanalizasyon1/01_Sewer2-AO.jpg using Guid(59ec7a829da9c4e4cbc4b89ef1fb9575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b501885ada9741fa533d99d5042109') in 0.057151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Obje-Texture/Kanalizasyon1/01_Sewer2-Height.jpg
+  artifactKey: Guid(3e67399537d89354ea1b5425069e25a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obje-Texture/Kanalizasyon1/01_Sewer2-Height.jpg using Guid(3e67399537d89354ea1b5425069e25a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cf6f388e9ac07a6b5a7a8fd956b6e17') in 0.062494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Obje-Texture/Kanalizasyon1/01_Sewer2-Diffuse.jpg
+  artifactKey: Guid(ab8c8cdd8933b134589154e8583725aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obje-Texture/Kanalizasyon1/01_Sewer2-Diffuse.jpg using Guid(ab8c8cdd8933b134589154e8583725aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f0dddfdb797cdb8b69e5bc59ab0bb1') in 0.052119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 580.907693 seconds.
+  path: Assets/Props/Fence/Materials/aluminum-texture.mat
+  artifactKey: Guid(1623ece25a13904408a1f29e501f0a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Fence/Materials/aluminum-texture.mat using Guid(1623ece25a13904408a1f29e501f0a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23dd88e8a74f6406b487cbe777931db0') in 0.200168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Props/Fence/aluminum-texture.mat
+  artifactKey: Guid(f89348e826ad24f10a9090a8cf13c6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Fence/aluminum-texture.mat using Guid(f89348e826ad24f10a9090a8cf13c6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f3d8dceb910c062c72be2dbe3a4711') in 0.046143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.642773 seconds.
+  path: Assets/Obje-Texture/Varil1/Barrel_01_1k.fbx
+  artifactKey: Guid(1c3038e6fd985054a93a063f38732268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obje-Texture/Varil1/Barrel_01_1k.fbx using Guid(1c3038e6fd985054a93a063f38732268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a75ad9cc3876a42f2ca2807024514baf') in 0.192381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Obje-Texture/Varil2/Barrel_02_1k.fbx
+  artifactKey: Guid(f2d523b01c926204cbe6240e6796d7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obje-Texture/Varil2/Barrel_02_1k.fbx using Guid(f2d523b01c926204cbe6240e6796d7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8de044728d7737fc24e21ee05add106') in 0.044427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.283330 seconds.
+  path: Assets/EffectExamples/Blood/Materials/BloodPoolParticle.mat
+  artifactKey: Guid(95be4df36eca6eb4b821dcab4acd4a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Blood/Materials/BloodPoolParticle.mat using Guid(95be4df36eca6eb4b821dcab4acd4a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e88506ef7d20177ca85287b51a2c5d16') in 0.054689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.370550 seconds.
+  path: Assets/EffectExamples/WeaponEffects/Textures/BloodSplat2.mat
+  artifactKey: Guid(fb0f4297b291a034bb4f9a9eada50640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/WeaponEffects/Textures/BloodSplat2.mat using Guid(fb0f4297b291a034bb4f9a9eada50640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49b80f86542254063db1c1d29e92cba') in 0.038581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/EffectExamples/WeaponEffects/Textures/BloodStreak.mat
+  artifactKey: Guid(2f03a6f5f76f67c45ae05e606f7ca2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/WeaponEffects/Textures/BloodStreak.mat using Guid(2f03a6f5f76f67c45ae05e606f7ca2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0228f9c04ae4311462d7a1010c91ab9') in 0.029584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.625641 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/Materials/books_paper_d.mat
+  artifactKey: Guid(cfe94b7c6014b1245b56c46d35cd406e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/Materials/books_paper_d.mat using Guid(cfe94b7c6014b1245b56c46d35cd406e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269e7593848ddf6262ea93529c9903c6') in 0.039086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.319681 seconds.
+  path: Assets/Karakter/Texture-Material/Bottom.mat
+  artifactKey: Guid(2e5b0385715a6f94ba4676e46c71addf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karakter/Texture-Material/Bottom.mat using Guid(2e5b0385715a6f94ba4676e46c71addf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e62f4fe8d341d5c5070ba0c36adf0953') in 0.032448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/AssetsStore/Wood Box/Assets/Materials/Box_Wood_2.mat
+  artifactKey: Guid(282e0c301be64b046a7410a344bee7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Wood Box/Assets/Materials/Box_Wood_2.mat using Guid(282e0c301be64b046a7410a344bee7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '017d3d3e7c3b111d48d4e94ff04ca3a9') in 0.030740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/AssetsStore/Wood Box/Assets/Materials/Box_Wood_3.mat
+  artifactKey: Guid(6cb570f1243a8324c81232ce1844f4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Wood Box/Assets/Materials/Box_Wood_3.mat using Guid(6cb570f1243a8324c81232ce1844f4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee00c5568402c70d0dccc19514867f5') in 0.031699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.512289 seconds.
+  path: Assets/StarterAssets/Environment/Art/Materials/Built-in_RP/BuiltInTriplanar_01_Mat.mat
+  artifactKey: Guid(3300a5c4710bac244815734e484b3b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Materials/Built-in_RP/BuiltInTriplanar_01_Mat.mat using Guid(3300a5c4710bac244815734e484b3b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f29d406555a6b306f35f9cdfaad4e0ed') in 0.100371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.270190 seconds.
+  path: Assets/EffectExamples/WeaponEffects/Materials/BulletDecalMetal.mat
+  artifactKey: Guid(094e76e620df5714eb3946120657e1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/WeaponEffects/Materials/BulletDecalMetal.mat using Guid(094e76e620df5714eb3946120657e1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa2f249b1a22a33202176b4043c0c71') in 0.061811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/EffectExamples/WeaponEffects/Materials/BulletFleshDecal.mat
+  artifactKey: Guid(d771645f9ac10d241b18277409d02a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/WeaponEffects/Materials/BulletFleshDecal.mat using Guid(d771645f9ac10d241b18277409d02a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b959b882e077186ede0e1830cd38a43') in 0.057497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/Materials/canvas_book_3_d.mat
+  artifactKey: Guid(e721513dd67b1194eb34d01628a2ec38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/Materials/canvas_book_3_d.mat using Guid(e721513dd67b1194eb34d01628a2ec38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8572e8732cf8b67d3a6b51eecd558c1') in 0.052568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/EffectExamples/WeaponEffects/Materials/BulletDecalWood.mat
+  artifactKey: Guid(39babc0a61c17df41bca722640cfc289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/WeaponEffects/Materials/BulletDecalWood.mat using Guid(39babc0a61c17df41bca722640cfc289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3adbd224a6d456ebb1e4e416bb99ca17') in 0.038996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.117635 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/Materials/canvas_d.mat
+  artifactKey: Guid(8ea231131c0ecc64ca078b074ddd7129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/Materials/canvas_d.mat using Guid(8ea231131c0ecc64ca078b074ddd7129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86937f3e08f468d2e5d7859d20cc10ff') in 0.040232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/Materials/cobblestone_wall_1_fixed_d.mat
+  artifactKey: Guid(f08005055adb6774b8d7cd4b19858a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/Materials/cobblestone_wall_1_fixed_d.mat using Guid(f08005055adb6774b8d7cd4b19858a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ff2e74ef10d196b551f36b2820b53d') in 0.067266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/Materials/canvas_poor_d.mat
+  artifactKey: Guid(00d2fb0ba59dca84fb06f1e87df7b18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/Materials/canvas_poor_d.mat using Guid(00d2fb0ba59dca84fb06f1e87df7b18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae625670dcab41469fa4ec02bc0a1000') in 0.032935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.242736 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/Materials/dark_wood.mat
+  artifactKey: Guid(02f0f69994ce7d34a86b5fbb2a3127fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/Materials/dark_wood.mat using Guid(02f0f69994ce7d34a86b5fbb2a3127fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ae290e7bf7babe2d89fc386867d55f2') in 0.036142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/EffectExamples/FireExplosionEffects/Materials/DebrisParticle.mat
+  artifactKey: Guid(72815344e9e9c7446895e130936932d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/FireExplosionEffects/Materials/DebrisParticle.mat using Guid(72815344e9e9c7446895e130936932d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e0cad24facceb7be35a9ee0b188e218') in 0.022750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.524629 seconds.
+  path: Assets/Honeti/I18N/Textures/Sprites/Settings/img_settings_pl.png
+  artifactKey: Guid(63457c19d12756342aa5c32c82fe41ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honeti/I18N/Textures/Sprites/Settings/img_settings_pl.png using Guid(63457c19d12756342aa5c32c82fe41ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c304d047d84f4260ac6bd503d49978') in 0.059830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Honeti/I18N/Textures/Sprites/Settings/img_settings_fr.png
+  artifactKey: Guid(35d4183ab9ea0a64f86e0364741e468b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honeti/I18N/Textures/Sprites/Settings/img_settings_fr.png using Guid(35d4183ab9ea0a64f86e0364741e468b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de29d1d5a5c505d463de78a465f4371') in 0.027714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.825962 seconds.
+  path: Assets/Honeti/I18N/Textures/Sprites/Settings/img_settings_en.png
+  artifactKey: Guid(fce5dc5aa13325649a74e4451553f98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honeti/I18N/Textures/Sprites/Settings/img_settings_en.png using Guid(fce5dc5aa13325649a74e4451553f98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b7d9a34c7b9d3176080e57926a81abd') in 0.024484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.322053 seconds.
+  path: Assets/Honeti/I18N/Textures/Sprites/Play/img_play_pl.png
+  artifactKey: Guid(9de64515010cf864092af9f26d0bff90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honeti/I18N/Textures/Sprites/Play/img_play_pl.png using Guid(9de64515010cf864092af9f26d0bff90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a871cc582877114ee924c9c810b19227') in 0.031236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.412756 seconds.
+  path: Assets/Honeti/I18N/Textures/Sprites/Play/img_play_fr.png
+  artifactKey: Guid(22ef1271ae64bea489ea462c6cc6e771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honeti/I18N/Textures/Sprites/Play/img_play_fr.png using Guid(22ef1271ae64bea489ea462c6cc6e771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f4c654d684e6af22fdabbb466ca49cd') in 0.025302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.045335 seconds.
+  path: Assets/Honeti/I18N/Textures/Sprites/Play/img_play_en.png
+  artifactKey: Guid(351589c603cb37244b9d90cac23c85e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honeti/I18N/Textures/Sprites/Play/img_play_en.png using Guid(351589c603cb37244b9d90cac23c85e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42344cb721f3ca0d94668d34236352e1') in 0.026020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.305459 seconds.
+  path: Assets/EffectExamples/Misc Effects/Textures/DustMoteParticle.png
+  artifactKey: Guid(394e93ce356b57344903a08ff72fcab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Misc Effects/Textures/DustMoteParticle.png using Guid(394e93ce356b57344903a08ff72fcab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87da80b3e1bfc7c44b28b3eb42878dc4') in 0.033480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 848.535827 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/anvil.fbx
+  artifactKey: Guid(051e3ba88d85e954684e39b4f0a90985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/anvil.fbx using Guid(051e3ba88d85e954684e39b4f0a90985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e1fc23ca0edb42ef0766dd6da56f014') in 0.056733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/bag.fbx
+  artifactKey: Guid(268a7338e7f6cce4bb03dfe56d15a52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/bag.fbx using Guid(268a7338e7f6cce4bb03dfe56d15a52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5646496597977844d4b25671ca12dac2') in 0.094381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/barrel.001.fbx
+  artifactKey: Guid(7a0ce5ef7b0280c4b9d3cd0aefe01b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/barrel.001.fbx using Guid(7a0ce5ef7b0280c4b9d3cd0aefe01b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5565029626834568b6d4f329a5a33851') in 0.106357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Obje-Texture/DöküntüDuvar1/All_Assets.fbx
+  artifactKey: Guid(b307eadd2a4a3644f8d4918e50cd01f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obje-Texture/DöküntüDuvar1/All_Assets.fbx using Guid(b307eadd2a4a3644f8d4918e50cd01f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b90543a09805af07de039304e21823') in 1.179262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/bench.003.fbx
+  artifactKey: Guid(efca1dd4f7a3e0c42847fa64962e7a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/bench.003.fbx using Guid(efca1dd4f7a3e0c42847fa64962e7a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc25b74bfff1bc2f43a173001bba0f5') in 0.064484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/bedside_table.002.fbx
+  artifactKey: Guid(63eed49c2a895c449ae6a39ea1b47645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/bedside_table.002.fbx using Guid(63eed49c2a895c449ae6a39ea1b47645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed7768cff8c656bcc00353db41fbda35') in 0.078680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/bed.fbx
+  artifactKey: Guid(f8b9ad221ae1d8240a94aa7066b0a056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/bed.fbx using Guid(f8b9ad221ae1d8240a94aa7066b0a056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c38b9827359e30f9e523473e9a34c3') in 0.071668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/big_fence.fbx
+  artifactKey: Guid(556a31de767dadb40a465c491655aff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/big_fence.fbx using Guid(556a31de767dadb40a465c491655aff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed5138d808c3ee791a314f3022908101') in 0.050009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/big_fence.001.fbx
+  artifactKey: Guid(c63732c2ff952284e9dcba2cf1476737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/big_fence.001.fbx using Guid(c63732c2ff952284e9dcba2cf1476737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810d40e88d32db22afad560cb2270a42') in 0.051916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/bedside_table.001.fbx
+  artifactKey: Guid(9c7758246e54147438029b3b9e4927dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/bedside_table.001.fbx using Guid(9c7758246e54147438029b3b9e4927dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f129e5fa788e330c880de1a12fe3f6cc') in 0.058100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.959334 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/big_fence.003.fbx
+  artifactKey: Guid(b3cc05387ce31f24eb66bda23e007c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/big_fence.003.fbx using Guid(b3cc05387ce31f24eb66bda23e007c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fd25b842433bbcbae472b35ca53e5c9') in 0.046055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/books.004.fbx
+  artifactKey: Guid(afbdb5a59fa2e4c46af77ffebddc21b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/books.004.fbx using Guid(afbdb5a59fa2e4c46af77ffebddc21b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46797ab21d1ec4e2d532ae384b1254f2') in 0.063085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/books.fbx
+  artifactKey: Guid(fe8929f36d597e748b0350884432fca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/books.fbx using Guid(fe8929f36d597e748b0350884432fca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5335f2e84caf053cf580d3df96b52ac2') in 0.058635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/books.003.fbx
+  artifactKey: Guid(369d83d4827b74b40878e1972152ab3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/books.003.fbx using Guid(369d83d4827b74b40878e1972152ab3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14a8cc1dbe3b6dd830a6fc57d2a6684b') in 0.052148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.171433 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/bottle.fbx
+  artifactKey: Guid(d3ea4b2ab5c089045b6aa328e58a8672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/bottle.fbx using Guid(d3ea4b2ab5c089045b6aa328e58a8672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '499c53d0a3520be832c1a85150340925') in 0.070918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/bowl.fbx
+  artifactKey: Guid(a9d27543a9545784183475959ace4682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/bowl.fbx using Guid(a9d27543a9545784183475959ace4682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '200d580fb834cfd29de9cc538d5c17e3') in 0.048339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/brick.fbx
+  artifactKey: Guid(fc9d2c6141cf1854c8da41b636f78134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/brick.fbx using Guid(fc9d2c6141cf1854c8da41b636f78134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1691bdc512523c8490d91b031c63afa') in 0.050597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/bottle.003.fbx
+  artifactKey: Guid(e7f8b11592604734aa84c451021e7b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/bottle.003.fbx using Guid(e7f8b11592604734aa84c451021e7b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14438beba4da02aeca72eb0ee3e9e2b3') in 0.059429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/box.fbx
+  artifactKey: Guid(2f5a755278514ef4db4bc7864409d4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/box.fbx using Guid(2f5a755278514ef4db4bc7864409d4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6209a214a44dfabab13090c2848fa54') in 0.065109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/brick.004.fbx
+  artifactKey: Guid(bae4b55fee53f654caed6dacfa11ccf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/brick.004.fbx using Guid(bae4b55fee53f654caed6dacfa11ccf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66311e12d51f93cae0cfefffe4478c77') in 0.051713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/brick.005.fbx
+  artifactKey: Guid(61b48b2571f890b408c461473c396719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/brick.005.fbx using Guid(61b48b2571f890b408c461473c396719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da802c452ad418776df8a0b98ee97aa') in 0.049501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/brick.010.fbx
+  artifactKey: Guid(d340a00e1b801114ca25887059546691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/brick.010.fbx using Guid(d340a00e1b801114ca25887059546691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862248949a1644e5e0c10d1e57594d6c') in 0.055149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/box.002.fbx
+  artifactKey: Guid(47f09045d6a8b0241880ac12a1b794fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/box.002.fbx using Guid(47f09045d6a8b0241880ac12a1b794fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aae0141946e3e2e2cea6250fbe61f44') in 0.053469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/box.004.fbx
+  artifactKey: Guid(337acceb6f764c1449484718d6c8391c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/box.004.fbx using Guid(337acceb6f764c1449484718d6c8391c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25968b12d55136b9494d2a0bd8beca28') in 0.054413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/brick.007.fbx
+  artifactKey: Guid(ee2b70e92033aab4398f79d313efbd53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/brick.007.fbx using Guid(ee2b70e92033aab4398f79d313efbd53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f43d05a4a4277f520433a56004c20704') in 0.058214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/brick.015.fbx
+  artifactKey: Guid(717443e6cc9e10243a18c344e7a9f876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/brick.015.fbx using Guid(717443e6cc9e10243a18c344e7a9f876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32207c8a952f7106c68f90c85f2778e8') in 0.049402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/bucket.fbx
+  artifactKey: Guid(f227af75c8fc2674681f65183ac55706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/bucket.fbx using Guid(f227af75c8fc2674681f65183ac55706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9198299fa9d0853fbeff6e210bbacddd') in 0.046800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/brick.017.fbx
+  artifactKey: Guid(559fc44945c9728489f82888cceb364f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/brick.017.fbx using Guid(559fc44945c9728489f82888cceb364f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bdbee5762a8f4158e24990d775c9dc1') in 0.049262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/brick.012.fbx
+  artifactKey: Guid(23da19f89fc7bb04eb068f64870354ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/brick.012.fbx using Guid(23da19f89fc7bb04eb068f64870354ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd5643c2250fead612ca335da7c4075') in 0.048760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/brick.016.fbx
+  artifactKey: Guid(eb9f4dd3cdb919245bcd7491f9b5e25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/brick.016.fbx using Guid(eb9f4dd3cdb919245bcd7491f9b5e25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ff85e446df0e3ffb5492af404699b8') in 0.047945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/brick.022.fbx
+  artifactKey: Guid(2a28eab3ab84a4e4d9ba26d3c3cfb965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/brick.022.fbx using Guid(2a28eab3ab84a4e4d9ba26d3c3cfb965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf3cf2b54eb27f7223581b1f53d9b3ea') in 0.048857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/brick.013.fbx
+  artifactKey: Guid(65d2d25768c8f0d47bee3e3d85a613d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/brick.013.fbx using Guid(65d2d25768c8f0d47bee3e3d85a613d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189e202e46b00a39133c59d3b388d11c') in 0.049165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/brick.021.fbx
+  artifactKey: Guid(15c9e8fd63b357d4fb10466d071d3d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/brick.021.fbx using Guid(15c9e8fd63b357d4fb10466d071d3d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f17dd4c34b9bfdb55d2b25c27130ed1') in 0.043659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/brick.024.fbx
+  artifactKey: Guid(a93d1e14f08725b4e84c2bc4b39dccc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/brick.024.fbx using Guid(a93d1e14f08725b4e84c2bc4b39dccc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55015cca7916384aef3528ca1196592f') in 0.054767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/brick.003.fbx
+  artifactKey: Guid(3f1c814a7ab9b104fb479aecec65a0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/brick.003.fbx using Guid(3f1c814a7ab9b104fb479aecec65a0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac2fd435da737d3545f33ca12dca0da4') in 0.050868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/brick.018.fbx
+  artifactKey: Guid(b9b0ce20a842fe7449d9097a93cabe0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/brick.018.fbx using Guid(b9b0ce20a842fe7449d9097a93cabe0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c105c8c426dc105c2f783a2fc0ee1267') in 0.038335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.257409 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/candle.001.fbx
+  artifactKey: Guid(b4f2a850d81eb8540b1f9e9d19d0e62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/candle.001.fbx using Guid(b4f2a850d81eb8540b1f9e9d19d0e62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a2ff3cc7e54c1fb50994cf3a4566867') in 0.053052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/candle.003.fbx
+  artifactKey: Guid(66855ff27e4b6c944ae3c27445928336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/candle.003.fbx using Guid(66855ff27e4b6c944ae3c27445928336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2b96acc7c910311138a926fd1c6c8e') in 0.066431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/candle.002.fbx
+  artifactKey: Guid(6a0a701acff80a7459be73abcec8129a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/candle.002.fbx using Guid(6a0a701acff80a7459be73abcec8129a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24933d094f5f0635a0fe9056a824f730') in 0.057842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/canvas_on_wall.002.fbx
+  artifactKey: Guid(98a38d5f3e1bdf34b85171136b4c6c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/canvas_on_wall.002.fbx using Guid(98a38d5f3e1bdf34b85171136b4c6c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9193cdde94867dd9f76398efd417f9d') in 0.047182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.141916 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/cauldron.fbx
+  artifactKey: Guid(37dc65af55103f640a067d624e0b5303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/cauldron.fbx using Guid(37dc65af55103f640a067d624e0b5303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38cc5539fc32d1a87781ffafb74d3ee') in 0.040972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/chair.002.fbx
+  artifactKey: Guid(cdde8be27303d8b4d9121e24be5a73bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/chair.002.fbx using Guid(cdde8be27303d8b4d9121e24be5a73bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f85b43089ca484a2ddbb42f96817349') in 0.049234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/chair.004.fbx
+  artifactKey: Guid(735fa55e746bf674bb9b2bb9d03eacbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/chair.004.fbx using Guid(735fa55e746bf674bb9b2bb9d03eacbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '662170be0070a28c66a4863a387328a4') in 0.048972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/chair.003.fbx
+  artifactKey: Guid(44240acd758fe7a4a98f9cc25ad62426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/chair.003.fbx using Guid(44240acd758fe7a4a98f9cc25ad62426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37cefb08393dc865751f0f8172932151') in 0.045919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/cupboard.001.fbx
+  artifactKey: Guid(faf06b3544156e7498367ca2c9e95040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/cupboard.001.fbx using Guid(faf06b3544156e7498367ca2c9e95040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '549209254330166a2bac9686eef83544') in 0.066497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/cupboard.fbx
+  artifactKey: Guid(8a0c0e48293f85741aff53030eac23d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/cupboard.fbx using Guid(8a0c0e48293f85741aff53030eac23d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb13d03f4058dd1c713a9517ff01ba3') in 0.052440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/cutting_board.fbx
+  artifactKey: Guid(3d3c0d4c23e0c7840ae962dea4a7d987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/cutting_board.fbx using Guid(3d3c0d4c23e0c7840ae962dea4a7d987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0eba3e825c9398f2e12ef5aafaa9821') in 0.085418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/cutting_board.001.fbx
+  artifactKey: Guid(f95a57d4bd92d264dad6cfd643c87237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/cutting_board.001.fbx using Guid(f95a57d4bd92d264dad6cfd643c87237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b2093a4cae88dfff09bc513e543ab9') in 0.065577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/chest_top.fbx
+  artifactKey: Guid(e129cb2f91e2663438d9b61f3cf6dea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/chest_top.fbx using Guid(e129cb2f91e2663438d9b61f3cf6dea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '874094c60d89864e68eac93308666c4a') in 0.061319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000711 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/cupboard.002.fbx
+  artifactKey: Guid(f9367e1aca8f0f14b8490b12dc75e0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/cupboard.002.fbx using Guid(f9367e1aca8f0f14b8490b12dc75e0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62912591792184fc74b82a200ed25ddc') in 0.047233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/chair_canvas.fbx
+  artifactKey: Guid(f47807d1df4a44044bc2bff0dca48c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/chair_canvas.fbx using Guid(f47807d1df4a44044bc2bff0dca48c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5988b6e1133bfd0ca85fc54123fa2a0') in 0.041901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.587854 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/fence.003.fbx
+  artifactKey: Guid(1ba612c72616d0f44893f9a30d583f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/fence.003.fbx using Guid(1ba612c72616d0f44893f9a30d583f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd364dddb0c54086c3d1bf5299877dde') in 0.038942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/fence_half.004.fbx
+  artifactKey: Guid(16ffe86e66f806c4e8d4c23f2aec421d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/fence_half.004.fbx using Guid(16ffe86e66f806c4e8d4c23f2aec421d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6095eb989f2f870a2b13088ec1312c0') in 0.045304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/fence_half.000.fbx
+  artifactKey: Guid(23638cd09901be240b48f50e0e56559a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/fence_half.000.fbx using Guid(23638cd09901be240b48f50e0e56559a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77dd66dfd1d38e821b84e93ab70f787') in 0.046654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/fence_half.003.fbx
+  artifactKey: Guid(165bb34e8e0fdc6429bddb2fe511399e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/fence_half.003.fbx using Guid(165bb34e8e0fdc6429bddb2fe511399e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466dc2e83a9929ab100d8f07b7a30979') in 0.047396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/fence_half.002.fbx
+  artifactKey: Guid(e9404030361334c45adc68d3329001a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/fence_half.002.fbx using Guid(e9404030361334c45adc68d3329001a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c9ee8c970e805ebd55d2193af2547da') in 0.044636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.098436 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/firewood.001.fbx
+  artifactKey: Guid(6bd646f0e9bb4e5489ef1d99946e81ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/firewood.001.fbx using Guid(6bd646f0e9bb4e5489ef1d99946e81ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '812058f63d16d64326be553a991f5e2b') in 0.053971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Obje-Texture/Çakar1/flasher-lp-triangulate.fbx
+  artifactKey: Guid(df8adc8064dadca498bedb931806750a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obje-Texture/Çakar1/flasher-lp-triangulate.fbx using Guid(df8adc8064dadca498bedb931806750a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a88b803aaf28fb8ab888648788d5bd5') in 0.429679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.117203 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/granite_panel.fbx
+  artifactKey: Guid(ba61bfa51a320a544800b503cf8ce0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/granite_panel.fbx using Guid(ba61bfa51a320a544800b503cf8ce0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e238446c3f476bfcf76008f82d5c6d6') in 0.052415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/half_tree.fbx
+  artifactKey: Guid(2dbd510f8901f5c42bfab460bd7d54d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/half_tree.fbx using Guid(2dbd510f8901f5c42bfab460bd7d54d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f70268303c6d014a0098323e838f80f3') in 0.086899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/hood.fbx
+  artifactKey: Guid(bb839d66eaf423244a7ab4471fe7d459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/hood.fbx using Guid(bb839d66eaf423244a7ab4471fe7d459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c657c80f57ef34aa904a13f54785e120') in 0.047938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.319306 seconds.
+  path: Assets/Obje-Texture/Havalandırma boruları1/modular_airduct_rectangular_01_1k.fbx
+  artifactKey: Guid(c543d28254311164f9e39fcafdf23921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obje-Texture/Havalandırma boruları1/modular_airduct_rectangular_01_1k.fbx using Guid(c543d28254311164f9e39fcafdf23921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a77b238bf288837efc404c02522b3352') in 0.562129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.315556 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/platform.005.fbx
+  artifactKey: Guid(92ea8ce96d76b3844a63e6bf7917339b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/platform.005.fbx using Guid(92ea8ce96d76b3844a63e6bf7917339b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72760dab6a6b7d5f7389e0e4172135db') in 0.067750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/pot.001.fbx
+  artifactKey: Guid(4da8f1f713bb4b74d9abf3e52073640f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/pot.001.fbx using Guid(4da8f1f713bb4b74d9abf3e52073640f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ed30a122760a3a5aa066b00f95d5b6') in 0.055345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/pot.fbx
+  artifactKey: Guid(fa2482d7133229c46b6a0f174825312d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/pot.fbx using Guid(fa2482d7133229c46b6a0f174825312d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed6be7d96728c1e5a4ba31e68f832d5') in 0.060706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/rack_for_weapons.001.fbx
+  artifactKey: Guid(dace15093a49b0940902cd768cd3b541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/rack_for_weapons.001.fbx using Guid(dace15093a49b0940902cd768cd3b541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '973a816945aa0fbf74bba5f3c66b29da') in 0.050403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.205038 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/sawing_wood.fbx
+  artifactKey: Guid(481f3c49bab8cb147b9063e6cde9e858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/sawing_wood.fbx using Guid(481f3c49bab8cb147b9063e6cde9e858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9152e3dd581b3a2ffc42f3b6626323b1') in 0.072924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/shelf.fbx
+  artifactKey: Guid(bc87015028369dd44bd83a71543d9930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/shelf.fbx using Guid(bc87015028369dd44bd83a71543d9930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f95a5bfd7f0ce7ec63fdef7f30ed4d') in 0.048163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/scroll.fbx
+  artifactKey: Guid(9fad38ab673e5aa47a08b7b438256715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/scroll.fbx using Guid(9fad38ab673e5aa47a08b7b438256715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5053e93005220ce3bb80bce69126ea8') in 0.052186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/scrolls.fbx
+  artifactKey: Guid(87eae56dfd6732740981e5602d04797f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/scrolls.fbx using Guid(87eae56dfd6732740981e5602d04797f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d6d3b45996f7889142649627f0a845d') in 0.041689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.100763 seconds.
+  path: Assets/Obje-Texture/TekliFlorasan1/SM_CeilingLight02.fbx
+  artifactKey: Guid(ea8c259b661b35a44a13f3e23f5b3d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obje-Texture/TekliFlorasan1/SM_CeilingLight02.fbx using Guid(ea8c259b661b35a44a13f3e23f5b3d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d9d1241b73ad7ffcfbaf16f16b33ded') in 0.130411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/spoon.fbx
+  artifactKey: Guid(64704605f89d97f43821f289ee58f53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/spoon.fbx using Guid(64704605f89d97f43821f289ee58f53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7de5fd9e2a29b5620782367560f7c38') in 0.045905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.365810 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/stone_bridge_column.fbx
+  artifactKey: Guid(263a4cbaba8ad6741b4e2580a3740059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/stone_bridge_column.fbx using Guid(263a4cbaba8ad6741b4e2580a3740059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc0dd6fc2aa04eb52b0178c325018bf') in 0.068266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/stone_column.fbx
+  artifactKey: Guid(3c9735499aa667a48b999ef393352b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/stone_column.fbx using Guid(3c9735499aa667a48b999ef393352b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb3994792ade5e84dc9e1aca02f5269') in 0.051290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/stone_bridge_connector.fbx
+  artifactKey: Guid(aca0fee4e412aca42bbce7d2ea006550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/stone_bridge_connector.fbx using Guid(aca0fee4e412aca42bbce7d2ea006550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa8e30a4bc2dc41fcefe1cb6008620c7') in 0.042844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.190751 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/stone_half_gate.001.fbx
+  artifactKey: Guid(edf02d38e9bcf344b86b4911edd57e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/stone_half_gate.001.fbx using Guid(edf02d38e9bcf344b86b4911edd57e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc8964d4ec288c77f835a5662809ecdb') in 0.075747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/table.004.fbx
+  artifactKey: Guid(bc0758d33e7f83e4099227d2482d8b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/table.004.fbx using Guid(bc0758d33e7f83e4099227d2482d8b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca880ec9c270460c2779721a11b3017') in 0.066151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/table.003.fbx
+  artifactKey: Guid(c9fb5e609c85fdb4eb0ce0b199981fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/table.003.fbx using Guid(c9fb5e609c85fdb4eb0ce0b199981fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e8b9d8c7bdb889f9c47485133496c2') in 0.060237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/table.001.fbx
+  artifactKey: Guid(5eb22b4477e6d7f43aea3d12e5d95a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/table.001.fbx using Guid(5eb22b4477e6d7f43aea3d12e5d95a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dce8468c9d46eba5e624d40bb5184444') in 0.049784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/table.002.fbx
+  artifactKey: Guid(7a50a1189f47a16439f1ce574698de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/table.002.fbx using Guid(7a50a1189f47a16439f1ce574698de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ec8023534cccb02b535c0017d9424c') in 0.059975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/stone_half_wall_bottom.001.fbx
+  artifactKey: Guid(b397f94ff1edf684b912a4177090c363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/stone_half_wall_bottom.001.fbx using Guid(b397f94ff1edf684b912a4177090c363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d7f00cfa2feedd099016cbd8daf9563') in 0.055357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/stone_wall_detailed.fbx
+  artifactKey: Guid(32e9f0be76da7e0449d0622028aa1899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/stone_wall_detailed.fbx using Guid(32e9f0be76da7e0449d0622028aa1899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5ac2a55691805683c3e0accf6aeca02') in 0.065273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/stone_wall_detailed_corner.001.fbx
+  artifactKey: Guid(e7e769be1c221e7418da8f68c701dce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/stone_wall_detailed_corner.001.fbx using Guid(e7e769be1c221e7418da8f68c701dce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7674dac2aab0fc23310bf6b2731f556a') in 0.040475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/stone_wall_detailed_corner.fbx
+  artifactKey: Guid(9feaf10591bde4945a982cdafc91de35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/stone_wall_detailed_corner.fbx using Guid(9feaf10591bde4945a982cdafc91de35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a063cdde760eaac2a052e0278eff340') in 0.055187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030513 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/torch.fbx
+  artifactKey: Guid(80b08148bd1b80d47aeb3043fe86d434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/torch.fbx using Guid(80b08148bd1b80d47aeb3043fe86d434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c91899096859d2baad2f90d5e639094b') in 0.059656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/tower_floor_small.fbx
+  artifactKey: Guid(7905e10e93d95a747a406a43dbf194d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/tower_floor_small.fbx using Guid(7905e10e93d95a747a406a43dbf194d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb39020dab0c7b7a7c5c23db4d6f1cd') in 0.050549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/tower_enter.fbx
+  artifactKey: Guid(11a76e6e49aa2634bb926e23b494a953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/tower_enter.fbx using Guid(11a76e6e49aa2634bb926e23b494a953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf2e3947b6885cda51f77abcc1b9950') in 0.049590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/tower.fbx
+  artifactKey: Guid(a4f5548c5b6f28940b363b3c91913bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/tower.fbx using Guid(a4f5548c5b6f28940b363b3c91913bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc5323da5a443fb3586efd1df97893ae') in 0.055901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.288320 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/tower_small.001.fbx
+  artifactKey: Guid(99b51ae0f8000f44eb95754b02aaf18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/tower_small.001.fbx using Guid(99b51ae0f8000f44eb95754b02aaf18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '332e27dc1902f54b0302288b54831b52') in 0.058040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/tower_small_window.fbx
+  artifactKey: Guid(96828ec809d56f14984fb94b4f0ce622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/tower_small_window.fbx using Guid(96828ec809d56f14984fb94b4f0ce622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f23f2f78fea3fee33ad128415267732') in 0.055378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/tower_window.001.fbx
+  artifactKey: Guid(65b667a0189be3c489a37c11777e6c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/tower_window.001.fbx using Guid(65b667a0189be3c489a37c11777e6c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9cba54cc4ec356e555906149faa9b4') in 0.055804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/tower_small_window.003.fbx
+  artifactKey: Guid(7eaa9a6b969339d47bdbe918452d906b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/tower_small_window.003.fbx using Guid(7eaa9a6b969339d47bdbe918452d906b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a93fec0a9673a6abdf2abcaa688af154') in 0.062588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/tower_window.002.fbx
+  artifactKey: Guid(3414325881054f34887c70d5f6104a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/tower_window.002.fbx using Guid(3414325881054f34887c70d5f6104a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3ac748c688cc42e94294ec665c6cf8e') in 0.058549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/tower_small.002.fbx
+  artifactKey: Guid(e5afe27f305185f44b9f29bc845081a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/tower_small.002.fbx using Guid(e5afe27f305185f44b9f29bc845081a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7399c7512c0da1a822cd06edb15d953') in 0.056407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/tower_window.003.fbx
+  artifactKey: Guid(b80aaed3af693c74d9a66ecc1530bc3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/tower_window.003.fbx using Guid(b80aaed3af693c74d9a66ecc1530bc3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24bfc3a8d4f6c9b196bb0014ed2b2e54') in 0.056468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/tower_small_destroyed.001.fbx
+  artifactKey: Guid(a4b5eb9f2f961d949afa52c3a0113c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/tower_small_destroyed.001.fbx using Guid(a4b5eb9f2f961d949afa52c3a0113c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47321df1515134f4b0d65f30184181ae') in 0.061824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/tower_small_destroyed.fbx
+  artifactKey: Guid(cbf949ab38499bd48bfbf4da63f70b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/tower_small_destroyed.fbx using Guid(cbf949ab38499bd48bfbf4da63f70b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '086e5d804932a86731112b18c8b0c51f') in 0.062136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.108806 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/tower_window.005.fbx
+  artifactKey: Guid(5b45f3e9210dc9b4a8ee050936d55107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/tower_window.005.fbx using Guid(5b45f3e9210dc9b4a8ee050936d55107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0295fbd51240488363eec63fccff9be6') in 0.059111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/trunk.fbx
+  artifactKey: Guid(268b970db8fdf0c4a9bec9d1df53b6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/trunk.fbx using Guid(268b970db8fdf0c4a9bec9d1df53b6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '599086aa623f4dc666e2e8a787b597ee') in 0.066749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wagon.fbx
+  artifactKey: Guid(af63b0ab3cf00dd4da21fb3f09e419e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wagon.fbx using Guid(af63b0ab3cf00dd4da21fb3f09e419e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e46021fde7d39cd5185d2afe57dd0c2f') in 0.070025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/vase.001.fbx
+  artifactKey: Guid(5d3afa9b95e7efe4b96367de291eba7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/vase.001.fbx using Guid(5d3afa9b95e7efe4b96367de291eba7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83457109bcadc00e6a341ca0de11a2b2') in 0.050241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.190041 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wall_passage.001.fbx
+  artifactKey: Guid(18ec0187061ee31419a804e157067c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wall_passage.001.fbx using Guid(18ec0187061ee31419a804e157067c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '624edfbc8345748592a45f5996eb3578') in 0.098148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/windbreak.001.fbx
+  artifactKey: Guid(53dc01d313e64734395aae9d235e7e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/windbreak.001.fbx using Guid(53dc01d313e64734395aae9d235e7e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f98d52b81957c32190e921125534eda') in 0.058102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wall_passage.004.fbx
+  artifactKey: Guid(3269832dc471d0c40a8b5c49e8d067e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wall_passage.004.fbx using Guid(3269832dc471d0c40a8b5c49e8d067e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e8dc817ee69405934cf98bd70a49786') in 0.078833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wall_short.001.fbx
+  artifactKey: Guid(bb2e115ff97c1e5428effafe25ac320e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wall_short.001.fbx using Guid(bb2e115ff97c1e5428effafe25ac320e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c62f287d9292d2fdb9b944889d7d9a4') in 0.054579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wall_passage.006.fbx
+  artifactKey: Guid(58a7dcbd51fd27c46b2665b1f651b4ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wall_passage.006.fbx using Guid(58a7dcbd51fd27c46b2665b1f651b4ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4c50e431dcdf398a88efc01aba52bc') in 0.081878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wall_passage.007.fbx
+  artifactKey: Guid(91ea39ffc6b97d141ab54e631b6334e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wall_passage.007.fbx using Guid(91ea39ffc6b97d141ab54e631b6334e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8735cb8f5b5b8e1d479281807ef377f3') in 0.077520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wall_passage.003.fbx
+  artifactKey: Guid(b002a80d670982e4fb77d2b0e2e94f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wall_passage.003.fbx using Guid(b002a80d670982e4fb77d2b0e2e94f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd57a47aed983809a017d062740c4eb49') in 0.072093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/windbreak_expensive.001.fbx
+  artifactKey: Guid(1c1e90b9a3e15d247a70010ef3fd453b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/windbreak_expensive.001.fbx using Guid(1c1e90b9a3e15d247a70010ef3fd453b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d4c90adf23cf146932780da5fecffa0') in 0.068909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_bridge.002.fbx
+  artifactKey: Guid(b1f146e7d453a3e4ca3419e085deaba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_bridge.002.fbx using Guid(b1f146e7d453a3e4ca3419e085deaba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c42d1384e481bb9e006983dc5ab78921') in 0.056056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_bridge.000.fbx
+  artifactKey: Guid(c5c821d1091df6c4ab6c1c3e949eb281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_bridge.000.fbx using Guid(c5c821d1091df6c4ab6c1c3e949eb281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '866d22c0c3ecc1ba627039f97feec61f') in 0.082594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_bridge.001.fbx
+  artifactKey: Guid(bc3db637d19884044a8d5ca83e0cf45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_bridge.001.fbx using Guid(bc3db637d19884044a8d5ca83e0cf45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4aceacabcd3020d267028815632e1a') in 0.056628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wall_short_no_side.001.fbx
+  artifactKey: Guid(f09c986c8b53fee40af4dc0fd95d77ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wall_short_no_side.001.fbx using Guid(f09c986c8b53fee40af4dc0fd95d77ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f8d299f76eee0eee6c3639b2ba332c') in 0.043082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/windbreak.003.fbx
+  artifactKey: Guid(6ba5df756331a9144a59dfa3fd3d7120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/windbreak.003.fbx using Guid(6ba5df756331a9144a59dfa3fd3d7120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b6bef753d7500d2e31c2c4e64941900') in 0.061907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_bridge.003.fbx
+  artifactKey: Guid(fd89c30888f581a4e9909206f194f69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_bridge.003.fbx using Guid(fd89c30888f581a4e9909206f194f69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '273a28e54268fbb179aa5461e677221b') in 0.059943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_column.007.fbx
+  artifactKey: Guid(365c68b6314546a43938280a7367c393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_column.007.fbx using Guid(365c68b6314546a43938280a7367c393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0d52071ffacb5e069b7dfd688233c3') in 0.070133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_column.fbx
+  artifactKey: Guid(9de89c6bc8b97734ab0d9c5d0c8c7348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_column.fbx using Guid(9de89c6bc8b97734ab0d9c5d0c8c7348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21c682b0aeffaeae47ab238aef9b4254') in 0.049943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_bridge.005.fbx
+  artifactKey: Guid(4dceb898cb157384d82739b6797ff8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_bridge.005.fbx using Guid(4dceb898cb157384d82739b6797ff8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d3d42f11a56a2beffbe4d7f144e6226') in 0.050756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_column.008.fbx
+  artifactKey: Guid(8dd63d28a44a0ab41a7f7f3077d9c168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_column.008.fbx using Guid(8dd63d28a44a0ab41a7f7f3077d9c168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf77bfc0968ceff4c41ee6da7315809') in 0.057415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_column.002.fbx
+  artifactKey: Guid(2d7d69a01495bd94da0cbe49a00ab2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_column.002.fbx using Guid(2d7d69a01495bd94da0cbe49a00ab2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '848611268d74b46d9aa194045cff50d1') in 0.050410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_bridge.006.fbx
+  artifactKey: Guid(a5da13f5fbf47cd4b93035c12d71b842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_bridge.006.fbx using Guid(a5da13f5fbf47cd4b93035c12d71b842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb2a5e457f8946f50f0522278238558d') in 0.046966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_wall.007.fbx
+  artifactKey: Guid(7ec77cb11305cae47b803cf734a41e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_wall.007.fbx using Guid(7ec77cb11305cae47b803cf734a41e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed593b22cde1d58e08bc47b06c31c637') in 0.062841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_wall.008.fbx
+  artifactKey: Guid(8e0610f5e6217de418d19fbddc82f4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_wall.008.fbx using Guid(8e0610f5e6217de418d19fbddc82f4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e101ec3eb042f1bad10a24d1e7224271') in 0.061567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_wall.001.fbx
+  artifactKey: Guid(46ccc9853d2ca354d98c8019a74f692e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_wall.001.fbx using Guid(46ccc9853d2ca354d98c8019a74f692e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4960080c1105a143c7f2b6ce32468199') in 0.052396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_wall.009.fbx
+  artifactKey: Guid(c0baf38d9acca5542a5b65311ee027fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_wall.009.fbx using Guid(c0baf38d9acca5542a5b65311ee027fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a7c0ca5e9e6923ba76315c6e870e24') in 0.062688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_column.009.fbx
+  artifactKey: Guid(15ba8f0af4a656e4a841dfa5372f403f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_column.009.fbx using Guid(15ba8f0af4a656e4a841dfa5372f403f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2df58a189141b757fbc2a7e48f63672') in 0.047074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_wall.012.fbx
+  artifactKey: Guid(49d24e48edae9ff48bda890ac39ec8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_wall.012.fbx using Guid(49d24e48edae9ff48bda890ac39ec8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c5c228656109d4f69cc3fe3ba5df6a') in 0.046362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_wall.015.fbx
+  artifactKey: Guid(9ce52e1b74319ee41b84820d0ebc2941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_wall.015.fbx using Guid(9ce52e1b74319ee41b84820d0ebc2941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea6b186d91754fb2a38d5961430f4c3') in 0.069935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000491 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_wall.010.fbx
+  artifactKey: Guid(80dc34846f7fd904ba096d6a666bbefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_wall.010.fbx using Guid(80dc34846f7fd904ba096d6a666bbefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49feb85a7457aaf754564c3736b727f6') in 0.048557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_wall.014.fbx
+  artifactKey: Guid(bd97669d51f5a43498ab4ea2cdbf72df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_wall.014.fbx using Guid(bd97669d51f5a43498ab4ea2cdbf72df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb2027d924d91676a867b71d4692111') in 0.058300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_stairs_support.fbx
+  artifactKey: Guid(646f801aaf702c24d84f52bba763f765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_stairs_support.fbx using Guid(646f801aaf702c24d84f52bba763f765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a6c71c7b24b14ead2248513491c388') in 0.045530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_wall.002.fbx
+  artifactKey: Guid(65fc57942a6923c47afb6186caf91b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_wall.002.fbx using Guid(65fc57942a6923c47afb6186caf91b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f41eb1d6ba911a71633f14fbd1bcbec9') in 0.061369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033955 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_wall.021.fbx
+  artifactKey: Guid(d557956c4b7d5eb43a3748398bd39c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_wall.021.fbx using Guid(d557956c4b7d5eb43a3748398bd39c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b0c6f02f2c57613286e9ce385311de1') in 0.039840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_wall_enter.002.fbx
+  artifactKey: Guid(e4c1478afa5fde545a56b911de996bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_wall_enter.002.fbx using Guid(e4c1478afa5fde545a56b911de996bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d9015fa0e49c98aebe4c3b72b7309b7') in 0.057984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_wall_enter.004.fbx
+  artifactKey: Guid(d7b5a015e85bd4f41b4e79c786630d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_wall_enter.004.fbx using Guid(d7b5a015e85bd4f41b4e79c786630d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba86056093e6bfe7085119a7f46991e') in 0.056564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_wall_enter.005.fbx
+  artifactKey: Guid(d3aedc0c316425f4da97c6058168cb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_wall_enter.005.fbx using Guid(d3aedc0c316425f4da97c6058168cb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc36029131e8dea4dae8a142c103942') in 0.058853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_wall_enter.fbx
+  artifactKey: Guid(1ff8b328a8ea38a49a2bd3e61f236342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_wall_enter.fbx using Guid(1ff8b328a8ea38a49a2bd3e61f236342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c1464b8768fa3943ccc761125e66a5c') in 0.044646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.102522 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_wall_enter.008.fbx
+  artifactKey: Guid(c5c2f519bdcd09044b2a4908bd847e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_wall_enter.008.fbx using Guid(c5c2f519bdcd09044b2a4908bd847e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1975fbdaa733a50a0a879412835c0f25') in 0.054508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_wall_enter.009.fbx
+  artifactKey: Guid(f83bc9ea9b5e34f41b3881b8fd9a0a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_wall_enter.009.fbx using Guid(f83bc9ea9b5e34f41b3881b8fd9a0a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb72bb726406a7b036f8c254c4b8506d') in 0.059787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_wall_window.003.fbx
+  artifactKey: Guid(43528bc2438a2b648add87b062030631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_wall_window.003.fbx using Guid(43528bc2438a2b648add87b062030631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0628198dea833e9d5d2f038ef3e68f9f') in 0.050919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_wall_window.001.fbx
+  artifactKey: Guid(b593d803310cb7b4dacc7453687a649d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_wall_window.001.fbx using Guid(b593d803310cb7b4dacc7453687a649d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b520c931aff29cf1f8bd1bfc3525f4') in 0.059897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.188664 seconds.
+  path: Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_wall_window.007.fbx
+  artifactKey: Guid(62a894e0c75b9c54e9acbc3cb4214985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Mega Fantasy Props Pack/FBX/wood_wall_window.007.fbx using Guid(62a894e0c75b9c54e9acbc3cb4214985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a9fff81955920c516aa0c04a14f45b') in 0.053238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/AssetsStore/Wood Box/Assets/Meshes/WoodBox3.FBX
+  artifactKey: Guid(9a11a98b93c5dc241a3a57f3bcb095b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Wood Box/Assets/Meshes/WoodBox3.FBX using Guid(9a11a98b93c5dc241a3a57f3bcb095b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ede719ef0a0c840b48064e21ec14f37d') in 0.055621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/AssetsStore/Wood Box/Assets/Meshes/WoodBox4.FBX
+  artifactKey: Guid(ed238a904af512d499a6d47f8a583073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Wood Box/Assets/Meshes/WoodBox4.FBX using Guid(ed238a904af512d499a6d47f8a583073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36d60e25871906de54c7d970719ae395') in 0.046976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/AssetsStore/Wood Box/Assets/Meshes/WoodBox8.FBX
+  artifactKey: Guid(d4722c21279dabb4cb84d28f00d47e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Wood Box/Assets/Meshes/WoodBox8.FBX using Guid(d4722c21279dabb4cb84d28f00d47e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32cef3a71d909a09f87dc7dd2ac2661a') in 0.041985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.693565 seconds.
+  path: Assets/Obje-Texture/BotanikBitki1/anthurium_botany_01_diff_1k.jpg
+  artifactKey: Guid(089c6cce57691d1448017b01e0551689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obje-Texture/BotanikBitki1/anthurium_botany_01_diff_1k.jpg using Guid(089c6cce57691d1448017b01e0551689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0ea4ca3842aaa8b1ff2c7243d773c61') in 0.021430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Obje-Texture/BotanikBitki1/anthurium_botany_01_disp_1k.png
+  artifactKey: Guid(dedf519980a21fa459dedb38d9e5d6d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obje-Texture/BotanikBitki1/anthurium_botany_01_disp_1k.png using Guid(dedf519980a21fa459dedb38d9e5d6d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9da9c9b23e0b154cc9970e58ef7ead7') in 0.026887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Obje-Texture/BotanikBitki1/anthurium_botany_01_nor_gl_1k.exr
+  artifactKey: Guid(12fbd691fc3e4784db0abef458475182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obje-Texture/BotanikBitki1/anthurium_botany_01_nor_gl_1k.exr using Guid(12fbd691fc3e4784db0abef458475182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2e817f57ab548aa069dfaa4640e164') in 0.035395 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014851 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.874 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1877ms)
+		BeginReloadAssembly (243ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (1465ms)
+			LoadAssemblies (162ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (365ms)
+			ReleaseScriptCaches (6ms)
+			RebuildScriptCaches (125ms)
+			SetupLoadedEditorAssemblies (655ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (454ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2879 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (1.4 MB). Loaded Objects now: 3612.
+Memory consumption went from 222.8 MB to 221.4 MB.
+Total: 5.242800 ms (FindLiveObjects: 0.311800 ms CreateObjectMapping: 0.193300 ms MarkObjects: 4.246200 ms  DeleteObjects: 0.490400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010753 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.782 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1783ms)
+		BeginReloadAssembly (230ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1367ms)
+			LoadAssemblies (160ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (371ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (106ms)
+			SetupLoadedEditorAssemblies (620ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (454ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2879 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (1.4 MB). Loaded Objects now: 3627.
+Memory consumption went from 222.8 MB to 221.4 MB.
+Total: 6.334600 ms (FindLiveObjects: 0.508300 ms CreateObjectMapping: 0.488800 ms MarkObjects: 4.859400 ms  DeleteObjects: 0.476200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012484 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.845 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1847ms)
+		BeginReloadAssembly (249ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (1413ms)
+			LoadAssemblies (166ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (396ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (103ms)
+			SetupLoadedEditorAssemblies (616ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (420ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (35ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2879 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (1.4 MB). Loaded Objects now: 3642.
+Memory consumption went from 222.9 MB to 221.4 MB.
+Total: 5.988100 ms (FindLiveObjects: 0.368000 ms CreateObjectMapping: 0.250300 ms MarkObjects: 4.913300 ms  DeleteObjects: 0.455200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 91.662886 seconds.
+  path: Assets/Karakter/Taş/Rock_01_AO.jpg
+  artifactKey: Guid(fcc664b7eb719824fb40384fe151accc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karakter/Taş/Rock_01_AO.jpg using Guid(fcc664b7eb719824fb40384fe151accc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d9d18e00d992b4b5a325d7c8f8d1e6b') in 0.113600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Karakter/Taş/Rock_01_Metallic.jpg
+  artifactKey: Guid(2a09e391da007064e8bc7009c3720dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karakter/Taş/Rock_01_Metallic.jpg using Guid(2a09e391da007064e8bc7009c3720dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de4f501345f4b36fd3b9b81f63d466d') in 0.022946 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011896 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.808 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1809ms)
+		BeginReloadAssembly (256ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (78ms)
+		EndReloadAssembly (1366ms)
+			LoadAssemblies (159ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (378ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (103ms)
+			SetupLoadedEditorAssemblies (605ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (416ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2879 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (1.4 MB). Loaded Objects now: 3657.
+Memory consumption went from 222.9 MB to 221.5 MB.
+Total: 4.665300 ms (FindLiveObjects: 0.326400 ms CreateObjectMapping: 0.182900 ms MarkObjects: 3.800400 ms  DeleteObjects: 0.354400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

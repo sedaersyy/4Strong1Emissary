@@ -38,9 +38,9 @@
   <ItemGroup>
      <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.0\Editor\Provider\SimulatorProviderSettingsEditor.cs" />
      <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.0\Editor\Provider\SimulatorProviderSettings.cs" />
-     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.0\Editor\Provider\SimulatorProviderConstants.cs" />
      <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.0\Editor\Provider\SimulatorProviderLoader.cs" />
      <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.0\Editor\Provider\SimulatorAdaptivePerformanceSubsystem.cs" />
+     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.0\Editor\Provider\SimulatorProviderConstants.cs" />
      <None Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.0\Editor\Provider\Unity.AdaptivePerformance.Simulator.Editor.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
