@@ -1,0 +1,201 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.3f1 (af2e63e8f9bd) revision 11480675'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit CoreSingleLanguage' Language: 'tr' Physical Memory: 8077 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/serdar/Documents/GitHub/4Strong1Emissary
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54600
+Successfully changed project path to: C:/Users/serdar/Documents/GitHub/4Strong1Emissary
+C:/Users/serdar/Documents/GitHub/4Strong1Emissary
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 118.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.3f1 (af2e63e8f9bd)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/serdar/Documents/GitHub/4Strong1Emissary/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 920M (ID=0x1299)
+    Vendor:   NVIDIA
+    VRAM:     2009 MB
+    Driver:   25.21.14.2531
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56348
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.014038 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 85.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.046 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1046ms)
+		BeginReloadAssembly (212ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (645ms)
+			LoadAssemblies (210ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (169ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (357ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (86ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (190ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.016947 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 94.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Package Manager log level set to [2]
+- Completed reload, in  2.052 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2054ms)
+		BeginReloadAssembly (188ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1658ms)
+			LoadAssemblies (234ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (304ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (913ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (94ms)
+				BeforeProcessingInitializeOnLoad (115ms)
+				ProcessInitializeOnLoadAttributes (597ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (25ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.22 seconds
+Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2938 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (1.5 MB). Loaded Objects now: 3421.
+Memory consumption went from 223.1 MB to 221.6 MB.
+Total: 7.900700 ms (FindLiveObjects: 0.387700 ms CreateObjectMapping: 0.326100 ms MarkObjects: 6.527900 ms  DeleteObjects: 0.657500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1537765.528607 seconds.
+  path: Assets/Obje-Texture/Hazır Maden/Bake_2lvlplatform.jpg
+  artifactKey: Guid(a33badcec34f1754f984397952068fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obje-Texture/Hazır Maden/Bake_2lvlplatform.jpg using Guid(a33badcec34f1754f984397952068fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c804074b384da3f00d0163cec7355972') in 0.263162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Obje-Texture/Kaya4/sutr_zula_midle1_Ao.jpg
+  artifactKey: Guid(6c50962259c26344892d883d0efc4320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obje-Texture/Kaya4/sutr_zula_midle1_Ao.jpg using Guid(6c50962259c26344892d883d0efc4320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8dc2028834415e618b7cc390f40b61e') in 0.048675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Obje-Texture/Hazır Maden/hazırmaden.mat
+  artifactKey: Guid(42795a2d4da544d4eae42d731825ea69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obje-Texture/Hazır Maden/hazırmaden.mat using Guid(42795a2d4da544d4eae42d731825ea69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86050b79e5b84a2a3e2917475857540c') in 0.277007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 75.103336 seconds.
+  path: Assets/Obje-Texture/Kaya seti1
+  artifactKey: Guid(9967b35a28611634db881ae220313391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obje-Texture/Kaya seti1 using Guid(9967b35a28611634db881ae220313391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3c97e5493c8e41962e62843eee9a422') in 0.005596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.914532 seconds.
+  path: Assets/Obje-Texture/Kayalar2/rock_moss_set_02_diff_1k.jpg
+  artifactKey: Guid(63b4334ac73e29a4281bd42241ecb790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obje-Texture/Kayalar2/rock_moss_set_02_diff_1k.jpg using Guid(63b4334ac73e29a4281bd42241ecb790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07eefa6edd9ecb2b66b854fbdf72b1e1') in 0.053619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Obje-Texture/Kayalar2/rock_moss_set_02_rough_1k.jpg
+  artifactKey: Guid(cc01784d875af3242804ad75cc60525a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obje-Texture/Kayalar2/rock_moss_set_02_rough_1k.jpg using Guid(cc01784d875af3242804ad75cc60525a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd5300a1377e5a766dd26f52caa2edd') in 0.034531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.017342 seconds.
+  path: Assets/Obje-Texture/Kaya seti1/rock_moss_set_01_1k.fbx
+  artifactKey: Guid(b934bb35dc4eee94a8c66e4064dc4bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obje-Texture/Kaya seti1/rock_moss_set_01_1k.fbx using Guid(b934bb35dc4eee94a8c66e4064dc4bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb5afbaa08594fd443635d6eb6cc880') in 0.483233 seconds 
