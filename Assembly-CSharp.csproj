@@ -41,6 +41,7 @@
      <Compile Include="Assets\StarterAssets\InputSystem\StarterAssetsInputs.cs" />
      <Compile Include="Assets\EffectExamples\Shared\Scripts\DecalDestroyer.cs" />
      <Compile Include="Assets\Script\Fare.cs" />
+     <Compile Include="Assets\Script\sahne.cs" />
      <Compile Include="Assets\StarterAssets\Mobile\Scripts\CanvasInputs\UICanvasControllerInput.cs" />
      <Compile Include="Assets\Script\TypeWriter.cs" />
      <Compile Include="Assets\Obje-Texture\Çakar1\cakardonme.cs" />
@@ -58,7 +59,6 @@
      <Compile Include="Assets\Script\acilis.cs" />
      <Compile Include="Assets\StarterAssets\ThirdPersonController\Scripts\ThirdPersonController.cs" />
      <Compile Include="Assets\EffectExamples\Shared\Scripts\GunAim.cs" />
-     <Compile Include="Assets\Script\sahne.cs" />
      <None Include="Assets\StarterAssets\Environment\Shaders\Built-in_RP\Triplanar.shader" />
      <None Include="Assets\StarterAssets\license.txt" />
      <None Include="Assets\StarterAssets\Environment\Shaders\Built-in_RP\ArmatureShader.shader" />
