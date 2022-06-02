@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 #if ENABLE_INPUT_SYSTEM && STARTER_ASSETS_PACKAGES_CHECKED
 using UnityEngine.InputSystem;
 #endif
@@ -82,7 +82,7 @@ namespace StarterAssets
 		private int _animIDFreeFall;
 		private int _animIDMotionSpeed;
 
-		private Animator _animator;
+		public Animator _animator;
 		private CharacterController _controller;
 		private StarterAssetsInputs _input;
 		private GameObject _mainCamera;
@@ -96,9 +96,7 @@ namespace StarterAssets
 		public GameObject playerAimCamera; 
 		public Transform hiza; 
 		public GameObject crosshair;
-		public float can;
-		public GameObject water;
-		private bool death;
+		
 
 		private void Awake()
 		{
@@ -106,6 +104,7 @@ namespace StarterAssets
 			if (_mainCamera == null)
 			{
 				_mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
+				
 			}
 		}
 
@@ -120,6 +119,7 @@ namespace StarterAssets
 			
 			_jumpTimeoutDelta = JumpTimeout;
 			_fallTimeoutDelta = FallTimeout;
+			
 		}
 
 		private void Update()
@@ -129,20 +129,7 @@ namespace StarterAssets
 			JumpAndGravity();
 			GroundedCheck();
 			Move();
-			AimShoot(); 
-
-
-		if (can<=0)
-        {
-            death= true;
-        }    
-        
-        if(death==true)
-        {
-            _animator.SetBool("Death", true);
-           
-        }
-        
+			AimShoot();
 		}
 
 		private void AimShoot()
@@ -171,14 +158,7 @@ namespace StarterAssets
 			rock.GetComponent<Rigidbody>().AddForceAtPosition(hiza.forward*30, transform.position, ForceMode.Impulse); 
 			
 		}
-
-		void OnTriggerEnter(Collider other) 
-		{
-			if (water.gameObject)
-			{
-				can=-100;
-			}
-		}
+		
 
 		private void LateUpdate()
 		{

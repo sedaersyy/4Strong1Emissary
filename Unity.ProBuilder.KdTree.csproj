@@ -308,7 +308,7 @@
         <HintPath>C:\Users\serdar\Documents\GitHub\4Strong1Emissary\Library\PackageCache\com.unity.collab-proxy@1.15.18\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="PackageManagerAssembly">
-        <HintPath>C:\Users\serdar\Documents\GitHub\4Strong1Emissary\Assets\EffectExamples\Editor\PackageManagerAssembly\PackageManagerAssembly.dll</HintPath>
+        <HintPath>C:\Users\serdar\Documents\GitHub\4Strong1Emissary\Assets\AssetsStore\EffectExamples\Editor\PackageManagerAssembly\PackageManagerAssembly.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
         <HintPath>C:\Users\serdar\Documents\GitHub\4Strong1Emissary\Library\PackageCache\com.unity.collab-proxy@1.15.18\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>

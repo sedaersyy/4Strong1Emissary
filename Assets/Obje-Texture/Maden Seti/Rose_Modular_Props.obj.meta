@@ -3,7 +3,257 @@ guid: 4fdbb33ec1bce2b45aa71ee3e33169f9
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group16_door_handleMat
+    second: {fileID: 2100000, guid: a9d6eba45174995489b1e9bc9351ae5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group16_puddleMat
+    second: {fileID: 2100000, guid: a9d6eba45174995489b1e9bc9351ae5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group16_supports15Mat
+    second: {fileID: 2100000, guid: a9d6eba45174995489b1e9bc9351ae5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group16_torch4Mat
+    second: {fileID: 2100000, guid: a9d6eba45174995489b1e9bc9351ae5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group16_torch5Mat
+    second: {fileID: 2100000, guid: a9d6eba45174995489b1e9bc9351ae5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group16_wall_doorEndMat
+    second: {fileID: 2100000, guid: a9d6eba45174995489b1e9bc9351ae5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group1_candleMat
+    second: {fileID: 2100000, guid: 23d6fc72fbf406f41b17fad82d8b47bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group1_insetMat
+    second: {fileID: 2100000, guid: 23d6fc72fbf406f41b17fad82d8b47bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group1_pCube1Mat
+    second: {fileID: 2100000, guid: 23d6fc72fbf406f41b17fad82d8b47bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group1_supports14Mat
+    second: {fileID: 2100000, guid: 23d6fc72fbf406f41b17fad82d8b47bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group1_supports19Mat
+    second: {fileID: 2100000, guid: 23d6fc72fbf406f41b17fad82d8b47bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group1_torch3Mat
+    second: {fileID: 2100000, guid: 23d6fc72fbf406f41b17fad82d8b47bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group1_tri_hallwayMat
+    second: {fileID: 2100000, guid: 23d6fc72fbf406f41b17fad82d8b47bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group2_large_pipe1Mat
+    second: {fileID: 2100000, guid: 6598e91454678ab41af409bee013b729, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group2_large_pipeMat
+    second: {fileID: 2100000, guid: 6598e91454678ab41af409bee013b729, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group2_quadMat
+    second: {fileID: 2100000, guid: 6598e91454678ab41af409bee013b729, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group2_supports11Mat
+    second: {fileID: 2100000, guid: 6598e91454678ab41af409bee013b729, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group2_supports17Mat
+    second: {fileID: 2100000, guid: 6598e91454678ab41af409bee013b729, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group2_supports18Mat
+    second: {fileID: 2100000, guid: 6598e91454678ab41af409bee013b729, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group2_thin_pipe1Mat
+    second: {fileID: 2100000, guid: 6598e91454678ab41af409bee013b729, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group2_thin_pipe2Mat
+    second: {fileID: 2100000, guid: 6598e91454678ab41af409bee013b729, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group2_thin_pipe3Mat
+    second: {fileID: 2100000, guid: 6598e91454678ab41af409bee013b729, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group2_torch2Mat
+    second: {fileID: 2100000, guid: 6598e91454678ab41af409bee013b729, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group3_main_wallMat
+    second: {fileID: 2100000, guid: e49ea83330304f74c975a46602cd5d42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group3_pCylinder19Mat
+    second: {fileID: 2100000, guid: e49ea83330304f74c975a46602cd5d42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group3_pipe_90_curve1Mat
+    second: {fileID: 2100000, guid: e49ea83330304f74c975a46602cd5d42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group3_pipe_90_curve2Mat
+    second: {fileID: 2100000, guid: e49ea83330304f74c975a46602cd5d42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group3_pipe_90_curve3Mat
+    second: {fileID: 2100000, guid: e49ea83330304f74c975a46602cd5d42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group3_pipe_90_curve4Mat
+    second: {fileID: 2100000, guid: e49ea83330304f74c975a46602cd5d42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group3_pipe_90_curve5Mat
+    second: {fileID: 2100000, guid: e49ea83330304f74c975a46602cd5d42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group3_pipe_90_curve6Mat
+    second: {fileID: 2100000, guid: e49ea83330304f74c975a46602cd5d42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group3_pipe_90_curve7Mat
+    second: {fileID: 2100000, guid: e49ea83330304f74c975a46602cd5d42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group3_pipe_90_curveMat
+    second: {fileID: 2100000, guid: e49ea83330304f74c975a46602cd5d42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group3_polySurface4Mat
+    second: {fileID: 2100000, guid: e49ea83330304f74c975a46602cd5d42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group3_polySurface6Mat
+    second: {fileID: 2100000, guid: e49ea83330304f74c975a46602cd5d42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group3_polySurface7Mat
+    second: {fileID: 2100000, guid: e49ea83330304f74c975a46602cd5d42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group3_polySurface8Mat
+    second: {fileID: 2100000, guid: e49ea83330304f74c975a46602cd5d42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group3_supports10Mat
+    second: {fileID: 2100000, guid: e49ea83330304f74c975a46602cd5d42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group3_thin_pipeMat
+    second: {fileID: 2100000, guid: e49ea83330304f74c975a46602cd5d42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group3_torch1Mat
+    second: {fileID: 2100000, guid: e49ea83330304f74c975a46602cd5d42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group4_large_pipe2Mat
+    second: {fileID: 2100000, guid: ef8e60bc6459fc84ab1f8bc3f6d101f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group4_large_pipe3Mat
+    second: {fileID: 2100000, guid: ef8e60bc6459fc84ab1f8bc3f6d101f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group4_polySurface9Mat
+    second: {fileID: 2100000, guid: ef8e60bc6459fc84ab1f8bc3f6d101f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group4_supports16Mat
+    second: {fileID: 2100000, guid: ef8e60bc6459fc84ab1f8bc3f6d101f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group4_supports9Mat
+    second: {fileID: 2100000, guid: ef8e60bc6459fc84ab1f8bc3f6d101f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pipe_90_curve8_group3Mat
+    second: {fileID: 2100000, guid: e49ea83330304f74c975a46602cd5d42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: supports12_group2Mat
+    second: {fileID: 2100000, guid: 6598e91454678ab41af409bee013b729, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: supports13_group1Mat
+    second: {fileID: 2100000, guid: 23d6fc72fbf406f41b17fad82d8b47bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: torch6_group4Mat
+    second: {fileID: 2100000, guid: ef8e60bc6459fc84ab1f8bc3f6d101f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: upper_pipe_group16Mat
+    second: {fileID: 2100000, guid: a9d6eba45174995489b1e9bc9351ae5f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

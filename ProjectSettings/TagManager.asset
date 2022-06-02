@@ -8,11 +8,14 @@ TagManager:
   - Fare
   - Tas
   - UI
+  - Water
+  - CheckPoint
+  - Spider
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - NoLight
   - Water
   - UI
   - 
