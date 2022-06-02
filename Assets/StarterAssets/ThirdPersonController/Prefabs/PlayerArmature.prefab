@@ -2638,6 +2638,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3893294197879345259}
+  - component: {fileID: 5574009620311483714}
   - component: {fileID: 6982812146204527121}
   - component: {fileID: 4416926081852918491}
   - component: {fileID: 4416926081852918490}
@@ -2669,6 +2670,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5574009620311483714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4416926081852918481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6d8d4e63309dbc4cbb4e44cd33de2a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thirdPersonController: {fileID: 4416926081852918490}
+  can: 100
+  water: {fileID: 0}
 --- !u!95 &6982812146204527121
 Animator:
   serializedVersion: 4
@@ -2738,10 +2754,13 @@ MonoBehaviour:
   BottomClamp: -30
   CameraAngleOverride: 0
   LockCameraPosition: 0
+  _animator: {fileID: 0}
   rockObject: {fileID: 1526966282273441079, guid: 6ff929d971e82744abbc8f61764eb28c, type: 3}
   rockPoint: {fileID: 818212245663403368}
   playerFollowCamera: {fileID: 0}
   playerAimCamera: {fileID: 0}
+  hiza: {fileID: 0}
+  crosshair: {fileID: 0}
 --- !u!114 &5885216827943657505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2756,8 +2775,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pushLayers:
     serializedVersion: 2
-    m_Bits: 0
-  canPush: 0
+    m_Bits: 2147483647
+  canPush: 1
   strength: 1.1
 --- !u!114 &135756642000475821
 MonoBehaviour:
