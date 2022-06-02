@@ -96,6 +96,9 @@ namespace StarterAssets
 		public GameObject playerAimCamera; 
 		public Transform hiza; 
 		public GameObject crosshair;
+		public float saglik;
+		bool hayattaMi;
+		
 		
 
 		private void Awake()
@@ -119,7 +122,7 @@ namespace StarterAssets
 			
 			_jumpTimeoutDelta = JumpTimeout;
 			_fallTimeoutDelta = FallTimeout;
-			
+			hayattaMi=true;
 		}
 
 		private void Update()
@@ -130,8 +133,34 @@ namespace StarterAssets
 			GroundedCheck();
 			Move();
 			AimShoot();
+
+			if(saglik<=0)
+			{
+				hayattaMi=false;
+				_animator.SetBool("YasiyorMu", hayattaMi);
+				
+			}
+
+			if(hayattaMi==true)
+			{
+				
+			}
 		}
 
+		
+		public void HasarAl()
+		{
+			saglik-=Random.Range(5,10);
+		}
+
+		void OnTriggerEnter(Collider other) 
+		{
+			if (other.gameObject.tag=="Water")
+			{
+				saglik=-100;
+                
+			}
+		}
 		private void AimShoot()
 		{
 			if(_input.isAiming && Grounded && !_input.sprint) 
