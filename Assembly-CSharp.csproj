@@ -66,6 +66,7 @@
      <None Include="Assets\StarterAssets\license.txt" />
      <None Include="Assets\StarterAssets\Environment\Shaders\Built-in_RP\ArmatureShader.shader" />
      <None Include="Assets\AssetsStore\Mega Fantasy Props Pack\README.txt" />
+     <None Include="Assets\AssetsStore\cave_troll\shaders\Standard Two Sided Soft Blend.shader" />
      <None Include="Assets\AssetsStore\EffectExamples\Shared\Shaders\SurfaceShader_VC.shader" />
      <None Include="Assets\Obje-Texture\Water\FG_PBR_Water.shader" />
     <Reference Include="UnityEngine">

@@ -74,7 +74,10 @@ public class Spider : MonoBehaviour
         
     }
 
-    
+    public void HasarVer()
+    {
+        hedef.GetComponent<ThirdPersonController>().HasarAl();
+    }
 
     IEnumerator SpiderSil()
     {
