@@ -98,6 +98,9 @@ namespace StarterAssets
 		public GameObject crosshair;
 		public float saglik;
 		bool hayattaMi;
+		public Vector3 checkpos;
+		public GameObject player;
+		public GameObject trigger1;
 		
 		
 
@@ -138,16 +141,10 @@ namespace StarterAssets
 			{
 				hayattaMi=false;
 				_animator.SetBool("YasiyorMu", hayattaMi);
-				
-			}
-
-			if(hayattaMi==true)
-			{
-				
+				trigger1.SetActive(true);
 			}
 		}
 
-		
 		public void HasarAl()
 		{
 			saglik-=Random.Range(5,10);
@@ -157,8 +154,23 @@ namespace StarterAssets
 		{
 			if (other.gameObject.tag=="Water")
 			{
-				saglik=-100;
-                
+				saglik-=100;
+                player.GetComponent<CharacterController>().enabled=false;
+				player.transform.position=checkpos;
+				player.GetComponent<CharacterController>().enabled=true;
+			}
+
+			if (other.gameObject.tag=="Medkit")
+			{
+				saglik+=20;
+			}
+			
+			if (other.gameObject.tag=="Trigger")
+			{
+				
+                player.GetComponent<CharacterController>().enabled=false;
+				player.transform.position=checkpos;
+				player.GetComponent<CharacterController>().enabled=true;
 			}
 		}
 		private void AimShoot()

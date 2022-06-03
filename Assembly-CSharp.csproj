@@ -36,6 +36,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Script\CheckPoint.cs" />
      <Compile Include="Assets\Script\DüsenKayalar.cs" />
      <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualButton.cs" />
      <Compile Include="Assets\StarterAssets\InputSystem\StarterAssetsInputs.cs" />
@@ -60,8 +61,11 @@
      <Compile Include="Assets\AssetsStore\EffectExamples\Shared\Scripts\GunShoot.cs" />
      <Compile Include="Assets\Script\acilis.cs" />
      <Compile Include="Assets\StarterAssets\ThirdPersonController\Scripts\ThirdPersonController.cs" />
+     <Compile Include="Assets\Script\MedkitDonme.cs" />
      <Compile Include="Assets\Script\KarakterCan.cs" />
      <Compile Include="Assets\AssetsStore\EffectExamples\Shared\Scripts\GunAim.cs" />
+     <Compile Include="Assets\Script\DusenTahta.cs" />
+     <Compile Include="Assets\Script\Level2gecis.cs" />
      <None Include="Assets\StarterAssets\Environment\Shaders\Built-in_RP\Triplanar.shader" />
      <None Include="Assets\StarterAssets\license.txt" />
      <None Include="Assets\StarterAssets\Environment\Shaders\Built-in_RP\ArmatureShader.shader" />
@@ -692,9 +696,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Unity.Recorder.Editor.csproj">
+      <Project>{e585a6af-bd66-c54f-d373-b9f0df22fb45}</Project>
+      <Name>Unity.Recorder.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
       <Project>{99833c2d-8575-e788-39fa-3d01f8bc5fe0}</Project>
       <Name>Unity.VSCode.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Recorder.Base.csproj">
+      <Project>{be6c6f78-fda5-b626-c2eb-98b0f015b544}</Project>
+      <Name>Unity.Recorder.Base</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
       <Project>{532d6628-cf15-b5a2-e950-21eb006e7e7a}</Project>
@@ -811,6 +823,10 @@
     <ProjectReference Include="Unity.AdaptivePerformance.Profiler.Editor.csproj">
       <Project>{ed19794b-4a9d-a9d9-dd06-0e447c442b62}</Project>
       <Name>Unity.AdaptivePerformance.Profiler.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Recorder.csproj">
+      <Project>{6aa44b7e-1818-2b9d-c00e-fcf9985f61af}</Project>
+      <Name>Unity.Recorder</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

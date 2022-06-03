@@ -15,6 +15,9 @@ Library\Bee\artifacts\mvdfrm\Unity.ProBuilder.AssetIdRemapUtility.ref.dll_A186D6
 Library\Bee\artifacts\mvdfrm\Unity.ProBuilder.Editor.ref.dll_E3AF217646286A75.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.ProBuilder.ref.dll_E7A4225E7DFD40FC.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Profiling.Core.ref.dll_DDC12D7300735955.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Recorder.Base.ref.dll_EF7F95D386759C59.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Recorder.Editor.ref.dll_1902ED81DEF11A55.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Recorder.ref.dll_173FFB8F7F73131C.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Rider.Editor.ref.dll_9B5591808ABA37AF.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Services.Core.Analytics.ref.dll_EDA1682A714EA6BF.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Services.Core.Environments.ref.dll_7E0AC2CDE81D9C6D.mvfrm
