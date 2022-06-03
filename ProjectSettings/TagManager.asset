@@ -11,6 +11,8 @@ TagManager:
   - Water
   - CheckPoint
   - Spider
+  - Medkit
+  - Trigger
   layers:
   - Default
   - TransparentFX
